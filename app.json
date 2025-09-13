@@ -63,7 +63,9 @@
         "measure_humidity",
         "measure_temperature",
         "measure_speed.fan_speed",
-        "measure_speed.fan_setpoint"
+        "measure_speed.fan_setpoint",
+        "measure_number.startup_counter",
+        "measure_number.total_operating_hours"
       ],
       "discovery": "itho-cve-wifi",
       "pair": [
@@ -85,6 +87,33 @@
         "xlarge": "/drivers/itho-cve-wifi/assets/images/xlarge.png"
       },
       "capabilitiesOptions": {
+        "measure_number.startup_counter": {
+          "units": {
+            "en": "starts",
+            "nl": "starts"
+          },
+          "title": {
+            "en": "Startup Counter",
+            "nl": "Startteller"
+          }
+        },
+        "measure_number.total_operating_hours": {
+          "units": {
+            "en": "hours",
+            "nl": "uren"
+          },
+          "title": {
+            "en": "Total Operating Hours",
+            "nl": "Totale bedrijfstijd"
+          }
+        },
+        "measure_speed.ventilation_setpoint": {
+          "units": "%",
+          "title": {
+            "en": "Ventilation Setpoint",
+            "nl": "Ventilatie Instelpunt"
+          }
+        },
         "measure_speed.fan_speed": {
           "units": "rpm",
           "title": {
