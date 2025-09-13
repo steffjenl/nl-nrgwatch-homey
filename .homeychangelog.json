@@ -4,5 +4,8 @@
   },
   "1.0.1": {
     "en": "Add nicer images and beter description"
+  },
+  "1.0.2": {
+    "en": "Add more info like start-up counter and remove fan_speed when using virtual remotes"
   }
 }
