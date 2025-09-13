@@ -8,8 +8,8 @@
     "local"
   ],
   "name": {
-    "en": "Itho Daalderop CVE Wifi",
-    "nl": "Itho Daalderop CVE Wifi"
+    "en": "Itho Daalderop",
+    "nl": "Itho Daalderop"
   },
   "description": {
     "en": "Add support for Itho Daalderop CVE Wifi with the NRG.Watch module"

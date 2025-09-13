@@ -9,8 +9,8 @@
     "local"
   ],
   "name": {
-    "en": "Itho Daalderop CVE Wifi",
-    "nl": "Itho Daalderop CVE Wifi"
+    "en": "Itho Daalderop",
+    "nl": "Itho Daalderop"
   },
   "description": {
     "en": "Add support for Itho Daalderop CVE Wifi with the NRG.Watch module"
@@ -44,14 +44,15 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/steffjenl/com-homey-unifiaccess/issues"
+    "url": "https://github.com/steffjenl/nl-nrgwatch-homey/issues"
   },
   "support": "https://monkeysoft.nl/homey-integrations-support/",
   "homeyCommunityTopicId": 42966,
   "drivers": [
     {
       "name": {
-        "en": "Itho CVE Wifi"
+        "en": "Itho (Auto Discovery)",
+        "nl": "Itho (Auto Detectie)"
       },
       "class": "fan",
       "capabilities": [
@@ -220,6 +221,16 @@
             "nl": "Apparaat Opties"
           },
           "children": [
+            {
+              "id": "refreshInterval",
+              "type": "number",
+              "value": 15,
+              "min": 5,
+              "label": {
+                "en": "Refresh Interval (seconds)",
+                "nl": "Verversingsinterval (seconden)"
+              }
+            },
             {
               "id": "enableVirtualRemote",
               "type": "checkbox",
