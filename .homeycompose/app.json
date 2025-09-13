@@ -12,7 +12,8 @@
     "nl": "Itho Daalderop"
   },
   "description": {
-    "en": "Add support for Itho Daalderop CVE Wifi with the NRG.Watch module"
+    "en": "Itho Daalderop - 'Make ventilation smart with Homey and NRG.Watch'",
+    "nl": "Itho Daalderop - 'Maak ventilatie slim met Homey en NRG.Watch'"
   },
   "category": [
     "climate"
