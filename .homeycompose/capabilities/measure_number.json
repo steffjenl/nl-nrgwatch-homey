@@ -1,0 +1,11 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Number",
+    "nl": "Getal"
+  },
+  "getable": true,
+  "setable": false,
+  "insights": true,
+  "icon": "/assets/capability_icons/measure_number.svg"
+}

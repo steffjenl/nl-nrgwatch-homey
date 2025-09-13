@@ -1,0 +1,50 @@
+{
+  "id": "nl.nrgwatch.homey",
+  "version": "1.0.0",
+  "compatibility": ">=12.4.0",
+  "brandColor": "#159EDA",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Itho Daalderop CVE Wifi",
+    "nl": "Itho Daalderop CVE Wifi"
+  },
+  "description": {
+    "en": "Add support for Itho Daalderop CVE Wifi with the NRG.Watch module"
+  },
+  "category": [
+    "climate"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Stèphan Eizinga",
+    "email": "stephan@monkeysoft.nl"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Stèphan Eizinga",
+        "email": "stephan@monkeysoft.nl"
+      }
+    ]
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "steffjenl"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/steffjenl/nl-nrgwatch-homey/issues"
+  },
+  "support": "https://monkeysoft.nl/homey-integrations-support/",
+  "homeyCommunityTopicId": 42966
+}

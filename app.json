@@ -1,0 +1,282 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "nl.nrgwatch.homey",
+  "version": "1.0.0",
+  "compatibility": ">=12.4.0",
+  "brandColor": "#159EDA",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Itho Daalderop CVE Wifi",
+    "nl": "Itho Daalderop CVE Wifi"
+  },
+  "description": {
+    "en": "Add support for Itho Daalderop CVE Wifi with the NRG.Watch module"
+  },
+  "category": [
+    "climate"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Stèphan Eizinga",
+    "email": "stephan@monkeysoft.nl"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Stèphan Eizinga",
+        "email": "stephan@monkeysoft.nl"
+      }
+    ]
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "steffjenl"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/steffjenl/com-homey-unifiaccess/issues"
+  },
+  "support": "https://monkeysoft.nl/homey-integrations-support/",
+  "homeyCommunityTopicId": 42966,
+  "drivers": [
+    {
+      "name": {
+        "en": "Itho CVE Wifi"
+      },
+      "class": "fan",
+      "capabilities": [
+        "measure_co2",
+        "fan_mode",
+        "fan_speed",
+        "measure_humidity",
+        "measure_temperature",
+        "measure_speed.fan_speed",
+        "measure_speed.fan_setpoint"
+      ],
+      "discovery": "itho-cve-wifi",
+      "pair": [
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "images": {
+        "small": "/drivers/itho-cve-wifi/assets/images/small.png",
+        "large": "/drivers/itho-cve-wifi/assets/images/large.png",
+        "xlarge": "/drivers/itho-cve-wifi/assets/images/xlarge.png"
+      },
+      "capabilitiesOptions": {
+        "measure_speed.fan_speed": {
+          "units": "rpm",
+          "title": {
+            "en": "Fan Speed",
+            "nl": "Ventilatorsnelheid"
+          }
+        },
+        "measure_speed.fan_setpoint": {
+          "units": "rpm",
+          "title": {
+            "en": "Fan Setpoint",
+            "nl": "Ventilator Instelpunt"
+          }
+        },
+        "fan_speed": {
+          "min": 0,
+          "max": 255,
+          "step": 1,
+          "unit": "%"
+        },
+        "fan_mode": {
+          "values": [
+            {
+              "id": "auto",
+              "title": {
+                "en": "Automatic",
+                "nl": "Automatisch"
+              }
+            },
+            {
+              "id": "low",
+              "title": {
+                "en": "Low",
+                "nl": "Laag"
+              }
+            },
+            {
+              "id": "medium",
+              "title": {
+                "en": "Medium",
+                "nl": "Middel"
+              }
+            },
+            {
+              "id": "high",
+              "title": {
+                "en": "High",
+                "nl": "Hoog"
+              }
+            },
+            {
+              "id": "timer1",
+              "title": {
+                "en": "Timer 1",
+                "nl": "Timer 1"
+              }
+            },
+            {
+              "id": "timer2",
+              "title": {
+                "en": "Timer 2",
+                "nl": "Timer 2"
+              }
+            },
+            {
+              "id": "timer3",
+              "title": {
+                "en": "Timer 3",
+                "nl": "Timer 3"
+              }
+            }
+          ]
+        }
+      },
+      "id": "itho-cve-wifi",
+      "settings": [
+        {
+          "type": "text",
+          "label": {
+            "en": "IP Address or Hostname",
+            "nl": "IP Adres of Hostnaam"
+          },
+          "id": "host",
+          "placeholder": {
+            "en": "http://nrg.local",
+            "nl": "http://nrg.local"
+          }
+        },
+        {
+          "type": "group",
+          "label": {
+            "en": "Authentication",
+            "nl": "Authenticatie"
+          },
+          "children": [
+            {
+              "id": "isAuthenticated",
+              "type": "checkbox",
+              "value": false,
+              "label": {
+                "en": "Does the API require authentication?",
+                "nl": "Heeft de API authenticatie nodig?"
+              }
+            },
+            {
+              "type": "text",
+              "label": {
+                "en": "Username",
+                "nl": "Gebruikersnaam"
+              },
+              "id": "username",
+              "placeholder": {
+                "en": "your-username",
+                "nl": "jouw-gebruikersnaam"
+              }
+            },
+            {
+              "type": "password",
+              "label": {
+                "en": "Password",
+                "nl": "Wachtwoord"
+              },
+              "id": "password",
+              "placeholder": {
+                "en": "your-password",
+                "nl": "jouw-wachtwoord"
+              }
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
+            "en": "Device Options",
+            "nl": "Apparaat Opties"
+          },
+          "children": [
+            {
+              "id": "enableVirtualRemote",
+              "type": "checkbox",
+              "value": false,
+              "label": {
+                "en": "Enable Virtual Remote",
+                "nl": "Schakel Virtuele Afstandsbediening in"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "measure_number": {
+      "type": "number",
+      "title": {
+        "en": "Number",
+        "nl": "Getal"
+      },
+      "getable": true,
+      "setable": false,
+      "insights": true,
+      "icon": "/assets/capability_icons/measure_number.svg"
+    },
+    "measure_string": {
+      "type": "string",
+      "title": {
+        "en": "Text",
+        "nl": "Tekst"
+      },
+      "getable": true,
+      "setable": false,
+      "insights": true,
+      "icon": "/assets/capability_icons/measure_string.svg"
+    }
+  },
+  "discovery": {
+    "itho-cve-wifi": {
+      "type": "mdns-sd",
+      "mdns-sd": {
+        "name": "http",
+        "protocol": "tcp"
+      },
+      "id": "{{host}}",
+      "conditions": [
+        [
+          {
+            "field": "host",
+            "match": {
+              "type": "regex",
+              "value": "nrg-itho-[a-z0-9][a-z0-9][a-z0-9][a-z0-9].local"
+            }
+          }
+        ]
+      ]
+    }
+  }
+}
