@@ -1,1 +1,16 @@
-{}
+{
+  "pair": {
+    "device_not_found": "Device not found",
+    "device_not_found_desc": "Make sure the IP address is correct and that the device is reachable.",
+    "authentication": "Authentication",
+    "settings": "Settings",
+    "login": "Login",
+    "save": "Save",
+    "name": "Device Name",
+    "username": "Username",
+    "password": "Password",
+    "ipAddress": "IP Address",
+    "enableVirtualRemote": "Enable Virtual Remote",
+    "refreshInterval": "Refresh Interval (seconds)"
+  }
+}

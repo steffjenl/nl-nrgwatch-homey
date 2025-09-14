@@ -1,0 +1,16 @@
+{
+  "pair": {
+    "device_not_found": "Apparaat niet gevonden",
+    "device_not_found_desc": "Controleer of het IP-adres correct is en of het apparaat bereikbaar is.",
+    "authentication": "Authenticatie",
+    "settings": "Instellingen",
+    "login": "Inloggen",
+    "save": "Opslaan",
+    "name": "Apparaatnaam",
+    "username": "Gebruikersnaam",
+    "password": "Wachtwoord",
+    "ipAddress": "IP-adres",
+    "enableVirtualRemote": "Virtuele afstandsbediening inschakelen",
+    "refreshInterval": "Verversinterval (seconden)"
+  }
+}
