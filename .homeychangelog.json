@@ -13,5 +13,8 @@
   },
   "1.0.4": {
     "en": "Add support for Normalize keys"
+  },
+  "1.0.5": {
+    "en": "Add tooltips and description in settings and pairing"
   }
 }
