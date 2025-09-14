@@ -3,14 +3,16 @@
     "device_not_found": "Device not found",
     "device_not_found_desc": "Make sure the IP address is correct and that the device is reachable.",
     "authentication": "Authentication",
+    "authentication_desc": "Only when authentication is enabled on the device.",
     "settings": "Settings",
     "login": "Login",
     "save": "Save",
     "name": "Device Name",
     "username": "Username",
     "password": "Password",
-    "ipAddress": "IP Address",
+    "ipAddress": "IP Address or Hostname",
     "enableVirtualRemote": "Enable Virtual Remote",
+    "enableVirtualRemote_desc": "Enable this when you have joined the virtual remote and using the CO2 module.",
     "refreshInterval": "Refresh Interval (seconds)"
   }
 }

@@ -3,14 +3,16 @@
     "device_not_found": "Apparaat niet gevonden",
     "device_not_found_desc": "Controleer of het IP-adres correct is en of het apparaat bereikbaar is.",
     "authentication": "Authenticatie",
+    "authentication_desc": "Alleen wanneer authenticatie is ingeschakeld op het apparaat.",
     "settings": "Instellingen",
     "login": "Inloggen",
     "save": "Opslaan",
     "name": "Apparaatnaam",
     "username": "Gebruikersnaam",
     "password": "Wachtwoord",
-    "ipAddress": "IP-adres",
+    "ipAddress": "IP Adres of Hostnaam",
     "enableVirtualRemote": "Virtuele afstandsbediening inschakelen",
+    "enableVirtualRemote_desc": "Schakel dit in wanneer je de virtuele afstandsbediening hebt gekoppeld en de CO2-module gebruikt.",
     "refreshInterval": "Verversinterval (seconden)"
   }
 }

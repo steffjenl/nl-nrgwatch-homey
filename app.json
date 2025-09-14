@@ -240,6 +240,10 @@
               "label": {
                 "en": "Does the API require authentication?",
                 "nl": "Heeft de API authenticatie nodig?"
+              },
+              "hint": {
+                "en": "Enable this only when authentication is enabled on the device.",
+                "nl": "Schakel dit in alleen wanneer authenticatie is ingeschakeld op het apparaat."
               }
             },
             {
@@ -292,6 +296,10 @@
               "label": {
                 "en": "Enable Virtual Remote",
                 "nl": "Schakel Virtuele Afstandsbediening in"
+              },
+              "hint": {
+                "en": "Enable this when you have joined the virtual remote and using the CO2 module.",
+                "nl": "Schakel dit in wanneer je de virtuele afstandsbediening hebt gekoppeld en de CO2-module gebruikt."
               }
             }
           ]
