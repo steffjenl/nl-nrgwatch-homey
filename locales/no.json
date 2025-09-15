@@ -1,0 +1,18 @@
+{
+  "pair": {
+    "device_not_found": "Enhet ikke funnet",
+    "device_not_found_desc": "Sørg for at IP-adressen er korrekt og at enheten er tilgjengelig.",
+    "authentication": "Autentisering",
+    "authentication_desc": "Kun når autentisering er aktivert på enheten.",
+    "settings": "Innstillinger",
+    "login": "Logg inn",
+    "save": "Lagre",
+    "name": "Enhetsnavn",
+    "username": "Brukernavn",
+    "password": "Passord",
+    "ipAddress": "IP-adresse eller vertsnavn",
+    "enableVirtualRemote": "Aktiver virtuell fjernkontroll",
+    "enableVirtualRemote_desc": "Aktiver dette når du har koblet til den virtuelle fjernkontrollen og bruker CO2-modulen.",
+    "refreshInterval": "Oppdateringsintervall (sekunder)"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pair": {
+    "device_not_found": "Urządzenie nie znalezione",
+    "device_not_found_desc": "Upewnij się, że adres IP jest poprawny i urządzenie jest dostępne.",
+    "authentication": "Uwierzytelnianie",
+    "authentication_desc": "Tylko gdy uwierzytelnianie jest włączone na urządzeniu.",
+    "settings": "Ustawienia",
+    "login": "Zaloguj się",
+    "save": "Zapisz",
+    "name": "Nazwa urządzenia",
+    "username": "Nazwa użytkownika",
+    "password": "Hasło",
+    "ipAddress": "Adres IP lub nazwa hosta",
+    "enableVirtualRemote": "Włącz wirtualnego pilota",
+    "enableVirtualRemote_desc": "Włącz to, gdy dołączysz wirtualnego pilota i używasz modułu CO2.",
+    "refreshInterval": "Interwał odświeżania (sekundy)"
+  }
+}

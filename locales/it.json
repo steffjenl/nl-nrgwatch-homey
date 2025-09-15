@@ -1,0 +1,18 @@
+{
+  "pair": {
+    "device_not_found": "Dispositivo non trovato",
+    "device_not_found_desc": "Assicurati che l'indirizzo IP sia corretto e che il dispositivo sia raggiungibile.",
+    "authentication": "Autenticazione",
+    "authentication_desc": "Solo quando l'autenticazione è abilitata sul dispositivo.",
+    "settings": "Impostazioni",
+    "login": "Accedi",
+    "save": "Salva",
+    "name": "Nome dispositivo",
+    "username": "Nome utente",
+    "password": "Password",
+    "ipAddress": "Indirizzo IP o nome host",
+    "enableVirtualRemote": "Abilita telecomando virtuale",
+    "enableVirtualRemote_desc": "Abilita questa opzione quando hai collegato il telecomando virtuale e utilizzi il modulo CO2.",
+    "refreshInterval": "Intervallo di aggiornamento (secondi)"
+  }
+}

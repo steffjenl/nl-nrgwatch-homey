@@ -1,0 +1,18 @@
+{
+  "pair": {
+    "device_not_found": "Gerät nicht gefunden",
+    "device_not_found_desc": "Stellen Sie sicher, dass die IP-Adresse korrekt ist und das Gerät erreichbar ist.",
+    "authentication": "Authentifizierung",
+    "authentication_desc": "Nur wenn die Authentifizierung auf dem Gerät aktiviert ist.",
+    "settings": "Einstellungen",
+    "login": "Anmelden",
+    "save": "Speichern",
+    "name": "Gerätename",
+    "username": "Benutzername",
+    "password": "Passwort",
+    "ipAddress": "IP-Adresse oder Hostname",
+    "enableVirtualRemote": "Virtuelle Fernbedienung aktivieren",
+    "enableVirtualRemote_desc": "Aktivieren Sie dies, wenn Sie die virtuelle Fernbedienung verbunden haben und das CO2-Modul verwenden.",
+    "refreshInterval": "Aktualisierungsintervall (Sekunden)"
+  }
+}

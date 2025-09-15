@@ -1,0 +1,18 @@
+{
+  "pair": {
+    "device_not_found": "Appareil non trouvé",
+    "device_not_found_desc": "Assurez-vous que l'adresse IP est correcte et que l'appareil est accessible.",
+    "authentication": "Authentification",
+    "authentication_desc": "Uniquement lorsque l'authentification est activée sur l'appareil.",
+    "settings": "Paramètres",
+    "login": "Connexion",
+    "save": "Enregistrer",
+    "name": "Nom de l'appareil",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "ipAddress": "Adresse IP ou nom d'hôte",
+    "enableVirtualRemote": "Activer la télécommande virtuelle",
+    "enableVirtualRemote_desc": "Activez ceci lorsque vous avez rejoint la télécommande virtuelle et utilisez le module CO2.",
+    "refreshInterval": "Intervalle de rafraîchissement (secondes)"
+  }
+}

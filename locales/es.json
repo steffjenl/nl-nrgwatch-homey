@@ -1,0 +1,18 @@
+{
+  "pair": {
+    "device_not_found": "Dispositivo no encontrado",
+    "device_not_found_desc": "Asegúrese de que la dirección IP sea correcta y que el dispositivo sea accesible.",
+    "authentication": "Autenticación",
+    "authentication_desc": "Solo cuando la autenticación está habilitada en el dispositivo.",
+    "settings": "Configuraciones",
+    "login": "Iniciar sesión",
+    "save": "Guardar",
+    "name": "Nombre del dispositivo",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "ipAddress": "Dirección IP o nombre de host",
+    "enableVirtualRemote": "Habilitar control remoto virtual",
+    "enableVirtualRemote_desc": "Habilite esto cuando haya unido el control remoto virtual y esté usando el módulo de CO2.",
+    "refreshInterval": "Intervalo de actualización (segundos)"
+  }
+}

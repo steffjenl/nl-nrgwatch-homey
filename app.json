@@ -10,11 +10,31 @@
   ],
   "name": {
     "en": "Itho Daalderop",
-    "nl": "Itho Daalderop"
+    "nl": "Itho Daalderop",
+    "de": "Itho Daalderop",
+    "fr": "Itho Daalderop",
+    "it": "Itho Daalderop",
+    "sv": "Itho Daalderop",
+    "no": "Itho Daalderop",
+    "es": "Itho Daalderop",
+    "da": "Itho Daalderop",
+    "ru": "Itho Daalderop",
+    "pl": "Itho Daalderop",
+    "ko": "Itho Daalderop"
   },
   "description": {
     "en": "Itho Daalderop - 'Make ventilation smart with Homey and NRG.Watch'",
-    "nl": "Itho Daalderop - 'Maak ventilatie slim met Homey en NRG.Watch'"
+    "nl": "Itho Daalderop - 'Maak ventilatie slim met Homey en NRG.Watch'",
+    "de": "Itho Daalderop - 'Machen Sie die Belüftung intelligent mit Homey und NRG.Watch'",
+    "fr": "Itho Daalderop - 'Rendez la ventilation intelligente avec Homey et NRG.Watch'",
+    "it": "Itho Daalderop - 'Rendi la ventilazione intelligente con Homey e NRG.Watch'",
+    "sv": "Itho Daalderop - 'Gör ventilationen smart med Homey och NRG.Watch'",
+    "no": "Itho Daalderop - 'Gjør ventilasjonen smart med Homey og NRG.Watch'",
+    "es": "Itho Daalderop - 'Haz la ventilación inteligente con Homey y NRG.Watch'",
+    "da": "Itho Daalderop - 'Gør ventilation smart med Homey og NRG.Watch'",
+    "ru": "Itho Daalderop - 'Сделайте вентиляцию умной с Homey и NRG.Watch'",
+    "pl": "Itho Daalderop - 'Uczyń wentylację inteligentną z Homey i NRG.Watch'",
+    "ko": "Itho Daalderop - 'Homey와 NRG.Watch로 환기를 스마트하게'"
   },
   "category": [
     "climate"
@@ -53,7 +73,17 @@
     {
       "name": {
         "en": "Itho Daalderop",
-        "nl": "Itho Daalderop"
+        "nl": "Itho Daalderop",
+        "de": "Itho Daalderop",
+        "fr": "Itho Daalderop",
+        "it": "Itho Daalderop",
+        "sv": "Itho Daalderop",
+        "no": "Itho Daalderop",
+        "es": "Itho Daalderop",
+        "da": "Itho Daalderop",
+        "ru": "Itho Daalderop",
+        "pl": "Itho Daalderop",
+        "ko": "Itho Daalderop"
       },
       "class": "fan",
       "capabilities": [
@@ -113,43 +143,36 @@
       "capabilitiesOptions": {
         "measure_number.startup_counter": {
           "units": {
-            "en": "starts",
-            "nl": "starts"
+            "en": "starts", "nl": "starts", "de": "Starts", "fr": "démarrages", "it": "avvii", "sv": "starter", "no": "starter", "es": "arranques", "da": "starter", "ru": "запуски", "pl": "rozruchy", "ko": "시작"
           },
           "title": {
-            "en": "Startup Counter",
-            "nl": "Startteller"
+            "en": "Startup Counter", "nl": "Startteller", "de": "Startzähler", "fr": "Compteur de démarrages", "it": "Contatore avvii", "sv": "Start-räknare", "no": "Startteller", "es": "Contador de arranques", "da": "Starttæller", "ru": "Счетчик запусков", "pl": "Licznik uruchomień", "ko": "시작 카운터"
           }
         },
         "measure_number.total_operating_hours": {
           "units": {
-            "en": "hours",
-            "nl": "uren"
+            "en": "hours", "nl": "uren", "de": "Stunden", "fr": "heures", "it": "ore", "sv": "timmar", "no": "timer", "es": "horas", "da": "timer", "ru": "часы", "pl": "godziny", "ko": "시간"
           },
           "title": {
-            "en": "Total Operating Hours",
-            "nl": "Totale bedrijfstijd"
+            "en": "Total Operating Hours", "nl": "Totale bedrijfstijd", "de": "Betriebsstunden gesamt", "fr": "Heures de fonctionnement totales", "it": "Ore totali di funzionamento", "sv": "Totala drifttimmar", "no": "Totale driftstimer", "es": "Horas totales de funcionamiento", "da": "Samlede driftstimer", "ru": "Общее время работы", "pl": "Łączny czas pracy", "ko": "총 작동 시간"
           }
         },
         "measure_speed.ventilation_setpoint": {
           "units": "%",
           "title": {
-            "en": "Ventilation Setpoint",
-            "nl": "Ventilatie Instelpunt"
+            "en": "Ventilation Setpoint", "nl": "Ventilatie Instelpunt", "de": "Lüftung Sollwert", "fr": "Consigne de ventilation", "it": "Setpoint ventilazione", "sv": "Ventilationsbörvärde", "no": "Ventilasjonssettpunkt", "es": "Punto de ajuste de ventilación", "da": "Ventilationsindstilling", "ru": "Уставка вентиляции", "pl": "Wartość zadana wentylacji", "ko": "환기 설정값"
           }
         },
         "measure_speed.fan_speed": {
           "units": "rpm",
           "title": {
-            "en": "Fan Speed",
-            "nl": "Ventilatorsnelheid"
+            "en": "Fan Speed", "nl": "Ventilatorsnelheid", "de": "Lüftergeschwindigkeit", "fr": "Vitesse du ventilateur", "it": "Velocità ventola", "sv": "Fläkthastighet", "no": "Viftehastighet", "es": "Velocidad del ventilador", "da": "Blæserhastighed", "ru": "Скорость вентилятора", "pl": "Prędkość wentylatora", "ko": "팬 속도"
           }
         },
         "measure_speed.fan_setpoint": {
           "units": "rpm",
           "title": {
-            "en": "Fan Setpoint",
-            "nl": "Ventilator Instelpunt"
+            "en": "Fan Setpoint", "nl": "Ventilator Instelpunt", "de": "Lüfter Sollwert", "fr": "Consigne du ventilateur", "it": "Setpoint ventola", "sv": "Fläktbörvärde", "no": "Viftesettpunkt", "es": "Punto de ajuste del ventilador", "da": "Blæserindstilling", "ru": "Уставка вентилятора", "pl": "Wartość zadana wentylatora", "ko": "팬 설정값"
           }
         },
         "fan_speed": {
@@ -160,55 +183,13 @@
         },
         "fan_mode": {
           "values": [
-            {
-              "id": "auto",
-              "title": {
-                "en": "Automatic",
-                "nl": "Automatisch"
-              }
-            },
-            {
-              "id": "low",
-              "title": {
-                "en": "Low",
-                "nl": "Laag"
-              }
-            },
-            {
-              "id": "medium",
-              "title": {
-                "en": "Medium",
-                "nl": "Middel"
-              }
-            },
-            {
-              "id": "high",
-              "title": {
-                "en": "High",
-                "nl": "Hoog"
-              }
-            },
-            {
-              "id": "timer1",
-              "title": {
-                "en": "Timer 1",
-                "nl": "Timer 1"
-              }
-            },
-            {
-              "id": "timer2",
-              "title": {
-                "en": "Timer 2",
-                "nl": "Timer 2"
-              }
-            },
-            {
-              "id": "timer3",
-              "title": {
-                "en": "Timer 3",
-                "nl": "Timer 3"
-              }
-            }
+            { "id": "auto", "title": { "en": "Automatic", "nl": "Automatisch", "de": "Automatisch", "fr": "Automatique", "it": "Automatico", "sv": "Automatisk", "no": "Automatisk", "es": "Automático", "da": "Automatisk", "ru": "Автоматически", "pl": "Automatyczny", "ko": "자동" } },
+            { "id": "low", "title": { "en": "Low", "nl": "Laag", "de": "Niedrig", "fr": "Bas", "it": "Basso", "sv": "Låg", "no": "Lav", "es": "Bajo", "da": "Lav", "ru": "Низкий", "pl": "Niski", "ko": "낮음" } },
+            { "id": "medium", "title": { "en": "Medium", "nl": "Middel", "de": "Mittel", "fr": "Moyen", "it": "Medio", "sv": "Medel", "no": "Middels", "es": "Medio", "da": "Mellem", "ru": "Средний", "pl": "Średni", "ko": "중간" } },
+            { "id": "high", "title": { "en": "High", "nl": "Hoog", "de": "Hoch", "fr": "Élevé", "it": "Alto", "sv": "Hög", "no": "Høy", "es": "Alto", "da": "Høj", "ru": "Высокий", "pl": "Wysoki", "ko": "높음" } },
+            { "id": "timer1", "title": { "en": "Timer 1", "nl": "Timer 1", "de": "Timer 1", "fr": "Minuterie 1", "it": "Timer 1", "sv": "Timer 1", "no": "Timer 1", "es": "Temporizador 1", "da": "Timer 1", "ru": "Таймер 1", "pl": "Timer 1", "ko": "타이머 1" } },
+            { "id": "timer2", "title": { "en": "Timer 2", "nl": "Timer 2", "de": "Timer 2", "fr": "Minuterie 2", "it": "Timer 2", "sv": "Timer 2", "no": "Timer 2", "es": "Temporizador 2", "da": "Timer 2", "ru": "Таймер 2", "pl": "Timer 2", "ko": "타이머 2" } },
+            { "id": "timer3", "title": { "en": "Timer 3", "nl": "Timer 3", "de": "Timer 3", "fr": "Minuterie 3", "it": "Timer 3", "sv": "Timer 3", "no": "Timer 3", "es": "Temporizador 3", "da": "Timer 3", "ru": "Таймер 3", "pl": "Timer 3", "ko": "타이머 3" } }
           ]
         }
       },
@@ -217,20 +198,17 @@
         {
           "type": "text",
           "label": {
-            "en": "IP Address or Hostname",
-            "nl": "IP Adres of Hostnaam"
+            "en": "IP Address or Hostname", "nl": "IP Adres of Hostnaam", "de": "IP-Adresse oder Hostname", "fr": "Adresse IP ou nom d'hôte", "it": "Indirizzo IP o nome host", "sv": "IP-adress eller värdnamn", "no": "IP-adresse eller vertsnavn", "es": "Dirección IP o nombre de host", "da": "IP-adresse eller værtsnavn", "ru": "IP-адрес или имя хоста", "pl": "Adres IP lub nazwa hosta", "ko": "IP 주소 또는 호스트명"
           },
           "id": "host",
           "placeholder": {
-            "en": "http://nrg.local",
-            "nl": "http://nrg.local"
+            "en": "http://nrg.local", "nl": "http://nrg.local", "de": "http://nrg.local", "fr": "http://nrg.local", "it": "http://nrg.local", "sv": "http://nrg.local", "no": "http://nrg.local", "es": "http://nrg.local", "da": "http://nrg.local", "ru": "http://nrg.local", "pl": "http://nrg.local", "ko": "http://nrg.local"
           }
         },
         {
           "type": "group",
           "label": {
-            "en": "Authentication",
-            "nl": "Authenticatie"
+            "en": "Authentication", "nl": "Authenticatie", "de": "Authentifizierung", "fr": "Authentification", "it": "Autenticazione", "sv": "Autentisering", "no": "Autentisering", "es": "Autenticación", "da": "Godkendelse", "ru": "Аутентификация", "pl": "Uwierzytelnianie", "ko": "인증"
           },
           "children": [
             {
@@ -238,36 +216,30 @@
               "type": "checkbox",
               "value": false,
               "label": {
-                "en": "Does the API require authentication?",
-                "nl": "Heeft de API authenticatie nodig?"
+                "en": "Does the API require authentication?", "nl": "Heeft de API authenticatie nodig?", "de": "Benötigt die API eine Authentifizierung?", "fr": "L'API nécessite-t-elle une authentification?", "it": "L'API richiede autenticazione?", "sv": "Kräver API:et autentisering?", "no": "Krever API-et autentisering?", "es": "¿La API requiere autenticación?", "da": "Kræver API'en godkendelse?", "ru": "Требует ли API аутентификацию?", "pl": "Czy API wymaga uwierzytelnienia?", "ko": "API에 인증이 필요합니까?"
               },
               "hint": {
-                "en": "Enable this only when authentication is enabled on the device.",
-                "nl": "Schakel dit in alleen wanneer authenticatie is ingeschakeld op het apparaat."
+                "en": "Enable this only when authentication is enabled on the device.", "nl": "Schakel dit in alleen wanneer authenticatie is ingeschakeld op het apparaat.", "de": "Aktivieren Sie dies nur, wenn die Authentifizierung auf dem Gerät aktiviert ist.", "fr": "Activez ceci uniquement lorsque l'authentification est activée sur l'appareil.", "it": "Abilita solo quando l'autenticazione è attiva sul dispositivo.", "sv": "Aktivera detta endast när autentisering är aktiverad på enheten.", "no": "Aktiver dette kun når autentisering er aktivert på enheten.", "es": "Active esto solo cuando la autenticación esté habilitada en el dispositivo.", "da": "Aktivér kun dette, når godkendelse er aktiveret på enheden.", "ru": "Включайте это только если аутентификация включена на устройстве.", "pl": "Włącz to tylko, gdy uwierzytelnianie jest włączone na urządzeniu.", "ko": "기기에서 인증이 활성화된 경우에만 활성화하세요."
               }
             },
             {
               "type": "text",
               "label": {
-                "en": "Username",
-                "nl": "Gebruikersnaam"
+                "en": "Username", "nl": "Gebruikersnaam", "de": "Benutzername", "fr": "Nom d'utilisateur", "it": "Nome utente", "sv": "Användarnamn", "no": "Brukernavn", "es": "Nombre de usuario", "da": "Brugernavn", "ru": "Имя пользователя", "pl": "Nazwa użytkownika", "ko": "사용자 이름"
               },
               "id": "username",
               "placeholder": {
-                "en": "your-username",
-                "nl": "jouw-gebruikersnaam"
+                "en": "your-username", "nl": "jouw-gebruikersnaam", "de": "dein-benutzername", "fr": "votre-nom-utilisateur", "it": "tuo-nome-utente", "sv": "ditt-användarnamn", "no": "ditt-brukernavn", "es": "tu-nombre-de-usuario", "da": "dit-brugernavn", "ru": "ваше-имя-пользователя", "pl": "twoja-nazwa-użytkownika", "ko": "사용자-이름"
               }
             },
             {
               "type": "password",
               "label": {
-                "en": "Password",
-                "nl": "Wachtwoord"
+                "en": "Password", "nl": "Wachtwoord", "de": "Passwort", "fr": "Mot de passe", "it": "Password", "sv": "Lösenord", "no": "Passord", "es": "Contraseña", "da": "Adgangskode", "ru": "Пароль", "pl": "Hasło", "ko": "비밀번호"
               },
               "id": "password",
               "placeholder": {
-                "en": "your-password",
-                "nl": "jouw-wachtwoord"
+                "en": "your-password", "nl": "jouw-wachtwoord", "de": "dein-passwort", "fr": "votre-mot-de-passe", "it": "tua-password", "sv": "ditt-lösenord", "no": "ditt-passord", "es": "tu-contraseña", "da": "din-adgangskode", "ru": "ваш-пароль", "pl": "twoje-hasło", "ko": "비밀번호"
               }
             }
           ]
@@ -275,8 +247,7 @@
         {
           "type": "group",
           "label": {
-            "en": "Device Options",
-            "nl": "Apparaat Opties"
+            "en": "Device Options", "nl": "Apparaat Opties", "de": "Geräteoptionen", "fr": "Options de l'appareil", "it": "Opzioni dispositivo", "sv": "Enhetsalternativ", "no": "Enhetsalternativer", "es": "Opciones del dispositivo", "da": "Enhedsindstillinger", "ru": "Параметры устройства", "pl": "Opcje urządzenia", "ko": "기기 옵션"
           },
           "children": [
             {
@@ -285,8 +256,7 @@
               "value": 15,
               "min": 5,
               "label": {
-                "en": "Refresh Interval (seconds)",
-                "nl": "Verversingsinterval (seconden)"
+                "en": "Refresh Interval (seconds)", "nl": "Verversingsinterval (seconden)", "de": "Aktualisierungsintervall (Sekunden)", "fr": "Intervalle de rafraîchissement (secondes)", "it": "Intervallo di aggiornamento (secondi)", "sv": "Uppdateringsintervall (sekunder)", "no": "Oppdateringsintervall (sekunder)", "es": "Intervalo de actualización (segundos)", "da": "Opdateringsinterval (sekunder)", "ru": "Интервал обновления (секунды)", "pl": "Interwał odświeżania (sekundy)", "ko": "새로고침 간격(초)"
               }
             },
             {
@@ -294,12 +264,10 @@
               "type": "checkbox",
               "value": false,
               "label": {
-                "en": "Enable Virtual Remote",
-                "nl": "Schakel Virtuele Afstandsbediening in"
+                "en": "Enable Virtual Remote", "nl": "Schakel Virtuele Afstandsbediening in", "de": "Virtuelle Fernbedienung aktivieren", "fr": "Activer la télécommande virtuelle", "it": "Abilita telecomando virtuale", "sv": "Aktivera virtuell fjärrkontroll", "no": "Aktiver virtuell fjernkontroll", "es": "Habilitar control remoto virtual", "da": "Aktivér virtuel fjernbetjening", "ru": "Включить виртуальный пульт", "pl": "Włącz wirtualnego pilota", "ko": "가상 리모컨 활성화"
               },
               "hint": {
-                "en": "Enable this when you have joined the virtual remote and using the CO2 module.",
-                "nl": "Schakel dit in wanneer je de virtuele afstandsbediening hebt gekoppeld en de CO2-module gebruikt."
+                "en": "Enable this when you have joined the virtual remote and using the CO2 module.", "nl": "Schakel dit in wanneer je de virtuele afstandsbediening hebt gekoppeld en de CO2-module gebruikt.", "de": "Aktivieren Sie dies, wenn Sie die virtuelle Fernbedienung verbunden haben und das CO2-Modul verwenden.", "fr": "Activez ceci lorsque vous avez rejoint la télécommande virtuelle et utilisez le module CO2.", "it": "Abilita questa opzione quando hai collegato il telecomando virtuale e utilizzi il modulo CO2.", "sv": "Aktivera detta när du har anslutit den virtuella fjärrkontrollen och använder CO2-modulen.", "no": "Aktiver dette når du har koblet til den virtuelle fjernkontrollen og bruker CO2-modulen.", "es": "Habilite esto cuando haya unido el control remoto virtual y esté usando el módulo de CO2.", "da": "Aktivér dette, når du har tilsluttet den virtuelle fjernbetjening og bruger CO2-modulet.", "ru": "Включите это, если вы подключили виртуальный пульт и используете модуль CO2.", "pl": "Włącz to, gdy dołączysz wirtualnego pilota i używasz modułu CO2.", "ko": "가상 리모컨에 연결하고 CO2 모듈을 사용하는 경우 활성화하세요."
               }
             }
           ]
@@ -312,7 +280,17 @@
       "type": "number",
       "title": {
         "en": "Number",
-        "nl": "Getal"
+        "nl": "Getal",
+        "de": "Nummer",
+        "fr": "Nombre",
+        "it": "Numero",
+        "sv": "Nummer",
+        "no": "Nummer",
+        "es": "Número",
+        "da": "Nummer",
+        "ru": "Число",
+        "pl": "Liczba",
+        "ko": "숫자"
       },
       "getable": true,
       "setable": false,
@@ -323,7 +301,17 @@
       "type": "string",
       "title": {
         "en": "Text",
-        "nl": "Tekst"
+        "nl": "Tekst",
+        "de": "Text",
+        "fr": "Texte",
+        "it": "Testo",
+        "sv": "Text",
+        "no": "Tekst",
+        "es": "Texto",
+        "da": "Tekst",
+        "ru": "Текст",
+        "pl": "Tekst",
+        "ko": "텍스트"
       },
       "getable": true,
       "setable": false,
