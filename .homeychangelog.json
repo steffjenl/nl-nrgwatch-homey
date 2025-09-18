@@ -16,5 +16,8 @@
   },
   "1.0.5": {
     "en": "Add tooltips and description in settings and pairing"
+  },
+  "1.0.6": {
+    "en": "Add new setting Virtual Remote Type and based on model you get the right Fan Modus options"
   }
 }
