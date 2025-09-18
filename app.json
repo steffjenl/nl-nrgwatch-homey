@@ -179,18 +179,18 @@
             "sv": "Koppla från Virtuell Fjärrkontroll"
           },
           "desc": {
-            "en": "Leave Virtual Remote from ventilation",
-            "nl": "Ontkoppel Virtuele Afstandsbediening van ventilatie",
-            "da": "Frakobl Virtuel Fjernbetjening fra ventilation",
-            "de": "Virtuelle Fernbedienung von der Lüftung trennen",
-            "es": "Salir de Mando Virtual de la ventilación",
-            "fr": "Dissocier Télécommande Virtuelle de la ventilation",
-            "it": "Disconnetti Telecomando Virtuale dalla ventilazione",
-            "ko": "환기에서 가상 리모컨 연결 해제",
-            "no": "Koble fra Virtuell Fjernkontroll fra ventilasjon",
-            "pl": "Opuść Wirtualny Pilot z wentylacji",
-            "ru": "Отключить виртуальный пульт от вентиляции",
-            "sv": "Koppla från Virtuell Fjärrkontroll från ventilationen"
+            "en": "Leave Virtual Remote from Itho unit",
+            "nl": "Ontkoppel Virtuele Afstandsbediening van Itho-unit",
+            "da": "Frakobl Virtuel Fjernbetjening fra Itho-enheden",
+            "de": "Virtuelle Fernbedienung von der Itho-Einheit trennen",
+            "es": "Salir de Mando Virtual de la unidad Itho",
+            "fr": "Dissocier Télécommande Virtuelle de la unité Itho",
+            "it": "Disconnetti Telecomando Virtuale dalla unità Itho",
+            "ko": "Itho 장치에서 가상 리모컨 연결 해제",
+            "no": "Koble fra Virtuell Fjernkontroll fra ventilasjonen",
+            "pl": "Opuść Wirtualny Pilot z jednostki Itho",
+            "ru": "Отключить виртуальный пульт от устройства Itho",
+            "sv": "Koppla från Virtuell Fjärrkontroll från Itho-enheten"
           }
         },
         "measure_number.startup_counter": {
