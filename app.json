@@ -135,63 +135,173 @@
           "maintenanceAction": true,
           "title": {
             "en": "Join Virtual Remote",
-            "nl": "Koppel Virtuele Afstandsbediening"
+            "nl": "Koppel Virtuele Afstandsbediening",
+            "da": "Tilslut Virtuel Fjernbetjening",
+            "de": "Virtuelle Fernbedienung koppeln",
+            "es": "Unir Mando Virtual",
+            "fr": "Associer Télécommande Virtuelle",
+            "it": "Associa Telecomando Virtuale",
+            "ko": "가상 리모컨 연결",
+            "no": "Koble til Virtuell Fjernkontroll",
+            "pl": "Dołącz Wirtualny Pilot",
+            "ru": "Присоединить виртуальный пульт",
+            "sv": "Anslut Virtuell Fjärrkontroll"
           },
           "desc": {
-            "en": "Join Virtual Remote to ventilation",
-            "nl": "Koppel Virtuele Afstandsbediening aan ventilatie"
+            "en": "A join command will only be accepted by the Itho unit within the first 2 minutes after a power cycle",
+            "nl": "Een koppelcommando wordt alleen geaccepteerd door de Itho-unit binnen de eerste 2 minuten na een stroomonderbreking",
+            "da": "En tilslutningskommando accepteres kun af Itho-enheden inden for de første 2 minutter efter en strømcyklus",
+            "de": "Ein Kopplungsbefehl wird vom Itho-Gerät nur in den ersten 2 Minuten nach dem Einschalten akzeptiert",
+            "es": "Un comando de unión solo será aceptado por la unidad Itho en los primeros 2 minutos tras un ciclo de energía",
+            "fr": "Une commande d'association n'est acceptée par l'unité Itho que dans les 2 premières minutes après une remise sous tension",
+            "it": "Un comando di associazione viene accettato dall'unità Itho solo nei primi 2 minuti dopo un ciclo di alimentazione",
+            "ko": "조인 명령은 전원 재시작 후 처음 2분 동안만 Itho 장치에서 허용됩니다",
+            "no": "En tilkoblingskommando aksepteres kun av Itho-enheten de første 2 minuttene etter strømoppstart",
+            "pl": "Polecenie dołączenia zostanie zaakceptowane przez jednostkę Itho tylko w ciągu pierwszych 2 minut po cyklu zasilania",
+            "ru": "Команда присоединения принимается устройством Itho только в первые 2 минуты после включения питания",
+            "sv": "En anslutningskommando accepteras endast av Itho-enheten under de första 2 minuterna efter en strömcykel"
           }
         },
         "button.leave": {
           "maintenanceAction": true,
           "title": {
             "en": "Leave Virtual Remote",
-            "nl": "Ontkoppel Virtuele Afstandsbediening"
+            "nl": "Ontkoppel Virtuele Afstandsbediening",
+            "da": "Frakobl Virtuel Fjernbetjening",
+            "de": "Virtuelle Fernbedienung trennen",
+            "es": "Salir de Mando Virtual",
+            "fr": "Dissocier Télécommande Virtuelle",
+            "it": "Disconnetti Telecomando Virtuale",
+            "ko": "가상 리모컨 연결 해제",
+            "no": "Koble fra Virtuell Fjernkontroll",
+            "pl": "Opuść Wirtualny Pilot",
+            "ru": "Отключить виртуальный пульт",
+            "sv": "Koppla från Virtuell Fjärrkontroll"
           },
           "desc": {
             "en": "Leave Virtual Remote from ventilation",
-            "nl": "Ontkoppel Virtuele Afstandsbediening van ventilatie"
+            "nl": "Ontkoppel Virtuele Afstandsbediening van ventilatie",
+            "da": "Frakobl Virtuel Fjernbetjening fra ventilation",
+            "de": "Virtuelle Fernbedienung von der Lüftung trennen",
+            "es": "Salir de Mando Virtual de la ventilación",
+            "fr": "Dissocier Télécommande Virtuelle de la ventilation",
+            "it": "Disconnetti Telecomando Virtuale dalla ventilazione",
+            "ko": "환기에서 가상 리모컨 연결 해제",
+            "no": "Koble fra Virtuell Fjernkontroll fra ventilasjon",
+            "pl": "Opuść Wirtualny Pilot z wentylacji",
+            "ru": "Отключить виртуальный пульт от вентиляции",
+            "sv": "Koppla från Virtuell Fjärrkontroll från ventilationen"
           }
         },
         "measure_number.startup_counter": {
           "units": {
             "en": "starts",
-            "nl": "starts"
+            "nl": "starts",
+            "da": "starter",
+            "de": "Starts",
+            "es": "inicios",
+            "fr": "démarrages",
+            "it": "avvii",
+            "ko": "시작",
+            "no": "starter",
+            "pl": "uruchomienia",
+            "ru": "запуски",
+            "sv": "starter"
           },
           "title": {
             "en": "Startup Counter",
-            "nl": "Startteller"
+            "nl": "Startteller",
+            "da": "Opstartstæller",
+            "de": "Startzähler",
+            "es": "Contador de Arranques",
+            "fr": "Compteur de Démarrages",
+            "it": "Contatore Avvii",
+            "ko": "시작 카운터",
+            "no": "Oppstartsteller",
+            "pl": "Licznik uruchomień",
+            "ru": "Счетчик запусков",
+            "sv": "Start-räknare"
           }
         },
         "measure_number.total_operating_hours": {
           "units": {
             "en": "hours",
-            "nl": "uren"
+            "nl": "uren",
+            "da": "timer",
+            "de": "Stunden",
+            "es": "horas",
+            "fr": "heures",
+            "it": "ore",
+            "ko": "시간",
+            "no": "timer",
+            "pl": "godziny",
+            "ru": "часы",
+            "sv": "timmar"
           },
           "title": {
             "en": "Total Operating Hours",
-            "nl": "Totale bedrijfstijd"
+            "nl": "Totale bedrijfstijd",
+            "da": "Samlede Driftstimer",
+            "de": "Gesamtbetriebsstunden",
+            "es": "Horas Totales de Funcionamiento",
+            "fr": "Heures de Fonctionnement Totales",
+            "it": "Ore Totali di Funzionamento",
+            "ko": "총 작동 시간",
+            "no": "Totale driftstimer",
+            "pl": "Łączny czas pracy",
+            "ru": "Общее время работы",
+            "sv": "Totala driftstimmar"
           }
         },
         "measure_speed.ventilation_setpoint": {
           "units": "%",
           "title": {
             "en": "Ventilation Setpoint",
-            "nl": "Ventilatie Instelpunt"
+            "nl": "Ventilatie Instelpunt",
+            "da": "Ventilationsindstilling",
+            "de": "Lüftungs-Sollwert",
+            "es": "Punto de ajuste de ventilación",
+            "fr": "Consigne de ventilation",
+            "it": "Setpoint Ventilazione",
+            "ko": "환기 설정값",
+            "no": "Ventilasjonsinnstilling",
+            "pl": "Wartość zadana wentylacji",
+            "ru": "Уставка вентиляции",
+            "sv": "Ventilationsinställning"
           }
         },
         "measure_speed.fan_speed": {
           "units": "rpm",
           "title": {
             "en": "Fan Speed",
-            "nl": "Ventilatorsnelheid"
+            "nl": "Ventilatorsnelheid",
+            "da": "Ventilatorhastighed",
+            "de": "Ventilatorgeschwindigkeit",
+            "es": "Velocidad del ventilador",
+            "fr": "Vitesse du ventilateur",
+            "it": "Velocità Ventilatore",
+            "ko": "팬 속도",
+            "no": "Viftehastighet",
+            "pl": "Prędkość wentylatora",
+            "ru": "Скорость вентилятора",
+            "sv": "Fläkthastighet"
           }
         },
         "measure_speed.fan_setpoint": {
           "units": "rpm",
           "title": {
             "en": "Fan Setpoint",
-            "nl": "Ventilator Instelpunt"
+            "nl": "Ventilator Instelpunt",
+            "da": "Ventilatorindstilling",
+            "de": "Ventilator-Sollwert",
+            "es": "Punto de ajuste del ventilador",
+            "fr": "Consigne du ventilateur",
+            "it": "Setpoint Ventilatore",
+            "ko": "팬 설정값",
+            "no": "Vifteinnstilling",
+            "pl": "Wartość zadana wentylatora",
+            "ru": "Уставка вентилятора",
+            "sv": "Fläktinställning"
           }
         },
         "fan_speed": {
@@ -313,19 +423,49 @@
           "type": "text",
           "label": {
             "en": "IP Address or Hostname",
-            "nl": "IP Adres of Hostnaam"
+            "nl": "IP Adres of Hostnaam",
+            "da": "IP-adresse eller værtsnavn",
+            "de": "IP-Adresse oder Hostname",
+            "es": "Dirección IP o nombre de host",
+            "fr": "Adresse IP ou nom d'hôte",
+            "it": "Indirizzo IP o nome host",
+            "ko": "IP 주소 또는 호스트명",
+            "no": "IP-adresse eller vertsnavn",
+            "pl": "Adres IP lub nazwa hosta",
+            "ru": "IP-адрес или имя хоста",
+            "sv": "IP-adress eller värdnamn"
           },
           "id": "host",
           "placeholder": {
             "en": "http://nrg.local",
-            "nl": "http://nrg.local"
+            "nl": "http://nrg.local",
+            "da": "http://nrg.local",
+            "de": "http://nrg.local",
+            "es": "http://nrg.local",
+            "fr": "http://nrg.local",
+            "it": "http://nrg.local",
+            "ko": "http://nrg.local",
+            "no": "http://nrg.local",
+            "pl": "http://nrg.local",
+            "ru": "http://nrg.local",
+            "sv": "http://nrg.local"
           }
         },
         {
           "type": "group",
           "label": {
             "en": "Authentication",
-            "nl": "Authenticatie"
+            "nl": "Authenticatie",
+            "da": "Godkendelse",
+            "de": "Authentifizierung",
+            "es": "Autenticación",
+            "fr": "Authentification",
+            "it": "Autenticazione",
+            "ko": "인증",
+            "no": "Autentisering",
+            "pl": "Uwierzytelnianie",
+            "ru": "Аутентификация",
+            "sv": "Autentisering"
           },
           "children": [
             {
@@ -334,35 +474,95 @@
               "value": false,
               "label": {
                 "en": "Does the API require authentication?",
-                "nl": "Heeft de API authenticatie nodig?"
+                "nl": "Heeft de API authenticatie nodig?",
+                "da": "Kræver API'en godkendelse?",
+                "de": "Benötigt die API eine Authentifizierung?",
+                "es": "¿La API requiere autenticación?",
+                "fr": "L'API nécessite-t-elle une authentification ?",
+                "it": "L'API richiede autenticazione?",
+                "ko": "API에 인증이 필요합니까?",
+                "no": "Krever API-autentisering?",
+                "pl": "Czy API wymaga uwierzytelnienia?",
+                "ru": "Требуется ли аутентификация для API?",
+                "sv": "Kräver API:et autentisering?"
               },
               "hint": {
                 "en": "Enable this only when authentication is enabled on the device.",
-                "nl": "Schakel dit in alleen wanneer authenticatie is ingeschakeld op het apparaat."
+                "nl": "Schakel dit in alleen wanneer authenticatie is ingeschakeld op het apparaat.",
+                "da": "Aktivér kun dette, når godkendelse er aktiveret på enheden.",
+                "de": "Aktivieren Sie dies nur, wenn die Authentifizierung auf dem Gerät aktiviert ist.",
+                "es": "Actívelo solo cuando la autenticación esté habilitada en el dispositivo.",
+                "fr": "Activez ceci uniquement lorsque l'authentification est activée sur l'appareil.",
+                "it": "Abilita solo quando l'autenticazione è attivata sul dispositivo.",
+                "ko": "장치에서 인증이 활성화된 경우에만 활성화하세요.",
+                "no": "Aktiver kun dette når autentisering er aktivert på enheten.",
+                "pl": "Włącz tylko wtedy, gdy uwierzytelnianie jest włączone na urządzeniu.",
+                "ru": "Включайте это только если на устройстве включена аутентификация.",
+                "sv": "Aktivera detta endast när autentisering är aktiverat på enheten."
               }
             },
             {
               "type": "text",
               "label": {
                 "en": "Username",
-                "nl": "Gebruikersnaam"
+                "nl": "Gebruikersnaam",
+                "da": "Brugernavn",
+                "de": "Benutzername",
+                "es": "Nombre de usuario",
+                "fr": "Nom d'utilisateur",
+                "it": "Nome utente",
+                "ko": "사용자 이름",
+                "no": "Brukernavn",
+                "pl": "Nazwa użytkownika",
+                "ru": "Имя пользователя",
+                "sv": "Användarnamn"
               },
               "id": "username",
               "placeholder": {
                 "en": "your-username",
-                "nl": "jouw-gebruikersnaam"
+                "nl": "jouw-gebruikersnaam",
+                "da": "dit-brugernavn",
+                "de": "Ihr-Benutzername",
+                "es": "tu-nombredeusuario",
+                "fr": "votre-nomutilisateur",
+                "it": "tuo-nomeutente",
+                "ko": "사용자이름",
+                "no": "ditt-brukernavn",
+                "pl": "twoja-nazwa-uzytkownika",
+                "ru": "ваше-имя-пользователя",
+                "sv": "ditt-användarnamn"
               }
             },
             {
               "type": "password",
               "label": {
                 "en": "Password",
-                "nl": "Wachtwoord"
+                "nl": "Wachtwoord",
+                "da": "Adgangskode",
+                "de": "Passwort",
+                "es": "Contraseña",
+                "fr": "Mot de passe",
+                "it": "Password",
+                "ko": "비밀번호",
+                "no": "Passord",
+                "pl": "Hasło",
+                "ru": "Пароль",
+                "sv": "Lösenord"
               },
               "id": "password",
               "placeholder": {
                 "en": "your-password",
-                "nl": "jouw-wachtwoord"
+                "nl": "jouw-wachtwoord",
+                "da": "din-adgangskode",
+                "de": "Ihr-Passwort",
+                "es": "tu-contraseña",
+                "fr": "votre-motdepasse",
+                "it": "tua-password",
+                "ko": "비밀번호",
+                "no": "ditt-passord",
+                "pl": "twoje-haslo",
+                "ru": "ваш-пароль",
+                "sv": "ditt-lösenord"
               }
             }
           ]
@@ -371,7 +571,17 @@
           "type": "group",
           "label": {
             "en": "Device Options",
-            "nl": "Apparaat Opties"
+            "nl": "Apparaat Opties",
+            "da": "Enhedsindstillinger",
+            "de": "Geräteoptionen",
+            "es": "Opciones de dispositivo",
+            "fr": "Options de l'appareil",
+            "it": "Opzioni dispositivo",
+            "ko": "장치 옵션",
+            "no": "Enhetsalternativer",
+            "pl": "Opcje urządzenia",
+            "ru": "Параметры устройства",
+            "sv": "Enhetsalternativ"
           },
           "children": [
             {
@@ -381,7 +591,17 @@
               "min": 5,
               "label": {
                 "en": "Refresh Interval (seconds)",
-                "nl": "Verversingsinterval (seconden)"
+                "nl": "Verversingsinterval (seconden)",
+                "da": "Opdateringsinterval (sekunder)",
+                "de": "Aktualisierungsintervall (Sekunden)",
+                "es": "Intervalo de actualización (segundos)",
+                "fr": "Intervalle de rafraîchissement (secondes)",
+                "it": "Intervallo di aggiornamento (secondi)",
+                "ko": "새로고침 간격(초)",
+                "no": "Oppdateringsintervall (sekunder)",
+                "pl": "Interwał odświeżania (sekundy)",
+                "ru": "Интервал обновления (секунды)",
+                "sv": "Uppdateringsintervall (sekunder)"
               }
             },
             {
@@ -390,11 +610,31 @@
               "value": false,
               "label": {
                 "en": "Enable Virtual Remote",
-                "nl": "Schakel Virtuele Afstandsbediening in"
+                "nl": "Schakel Virtuele Afstandsbediening in",
+                "da": "Aktivér Virtuel Fjernbetjening",
+                "de": "Virtuelle Fernbedienung aktivieren",
+                "es": "Activar Mando Virtual",
+                "fr": "Activer la télécommande virtuelle",
+                "it": "Abilita Telecomando Virtuale",
+                "ko": "가상 리모컨 활성화",
+                "no": "Aktiver Virtuell Fjernkontroll",
+                "pl": "Włącz Wirtualny Pilot",
+                "ru": "Включить виртуальный пульт",
+                "sv": "Aktivera Virtuell Fjärrkontroll"
               },
               "hint": {
                 "en": "Enable this when you have joined the virtual remote and using the CO2 module.",
-                "nl": "Schakel dit in wanneer je de virtuele afstandsbediening hebt gekoppeld en de CO2-module gebruikt."
+                "nl": "Schakel dit in wanneer je de virtuele afstandsbediening hebt gekoppeld en de CO2-module gebruikt.",
+                "da": "Aktivér dette, når du har tilsluttet den virtuelle fjernbetjening og bruger CO2-modulet.",
+                "de": "Aktivieren Sie dies, wenn Sie die virtuelle Fernbedienung gekoppelt und das CO2-Modul verwenden.",
+                "es": "Actívelo cuando haya unido el mando virtual y esté usando el módulo de CO2.",
+                "fr": "Activez ceci lorsque vous avez associé la télécommande virtuelle et utilisez le module CO2.",
+                "it": "Abilita quando hai associato il telecomando virtuale e usi il modulo CO2.",
+                "ko": "가상 리모컨을 연결하고 CO2 모듈을 사용하는 경우 활성화하세요.",
+                "no": "Aktiver dette når du har koblet til virtuell fjernkontroll og bruker CO2-modulen.",
+                "pl": "Włącz, gdy połączyłeś wirtualny pilot i używasz modułu CO2.",
+                "ru": "Включайте это, если вы присоединили виртуальный пульт и используете модуль CO2.",
+                "sv": "Aktivera detta när du har anslutit den virtuella fjärrkontrollen och använder CO2-modulen."
               }
             },
             {
@@ -403,70 +643,170 @@
               "value": "rft-auto",
               "label": {
                 "en": "Select Virtual Remote Type",
-                "nl": "Selecteer Type Virtuele Afstandsbediening"
+                "nl": "Selecteer Type Virtuele Afstandsbediening",
+                "da": "Vælg type virtuel fjernbetjening",
+                "de": "Virtuellen Fernbedienungstyp auswählen",
+                "es": "Seleccionar tipo de mando virtual",
+                "fr": "Sélectionner le type de télécommande virtuelle",
+                "it": "Seleziona tipo di telecomando virtuale",
+                "ko": "가상 리모컨 유형 선택",
+                "no": "Velg type virtuell fjernkontroll",
+                "pl": "Wybierz typ wirtualnego pilota",
+                "ru": "Выберите тип виртуального пульта",
+                "sv": "Välj typ av virtuell fjärrkontroll"
               },
               "values": [
                 {
                   "id": "rft-cve",
                   "label": {
                     "en": "RFT CVE",
-                    "nl": "RFT CVE"
+                    "nl": "RFT CVE",
+                    "da": "RFT CVE",
+                    "de": "RFT CVE",
+                    "es": "RFT CVE",
+                    "fr": "RFT CVE",
+                    "it": "RFT CVE",
+                    "ko": "RFT CVE",
+                    "no": "RFT CVE",
+                    "pl": "RFT CVE",
+                    "ru": "RFT CVE",
+                    "sv": "RFT CVE"
                   }
                 },
                 {
                   "id": "rft-auto",
                   "label": {
                     "en": "RFT AUTO",
-                    "nl": "RFT AUTO"
+                    "nl": "RFT AUTO",
+                    "da": "RFT AUTO",
+                    "de": "RFT AUTO",
+                    "es": "RFT AUTO",
+                    "fr": "RFT AUTO",
+                    "it": "RFT AUTO",
+                    "ko": "RFT AUTO",
+                    "no": "RFT AUTO",
+                    "pl": "RFT AUTO",
+                    "ru": "RFT AUTO",
+                    "sv": "RFT AUTO"
                   }
                 },
                 {
                   "id": "rft-n",
                   "label": {
                     "en": "RFT N",
-                    "nl": "RFT N"
+                    "nl": "RFT N",
+                    "da": "RFT N",
+                    "de": "RFT N",
+                    "es": "RFT N",
+                    "fr": "RFT N",
+                    "it": "RFT N",
+                    "ko": "RFT N",
+                    "no": "RFT N",
+                    "pl": "RFT N",
+                    "ru": "RFT N",
+                    "sv": "RFT N"
                   }
                 },
                 {
                   "id": "rft-auto-n",
                   "label": {
                     "en": "RFT AUTO-N",
-                    "nl": "RFT AUTO-N"
+                    "nl": "RFT AUTO-N",
+                    "da": "RFT AUTO-N",
+                    "de": "RFT AUTO-N",
+                    "es": "RFT AUTO-N",
+                    "fr": "RFT AUTO-N",
+                    "it": "RFT AUTO-N",
+                    "ko": "RFT AUTO-N",
+                    "no": "RFT AUTO-N",
+                    "pl": "RFT AUTO-N",
+                    "ru": "RFT AUTO-N",
+                    "sv": "RFT AUTO-N"
                   }
                 },
                 {
                   "id": "rft-df-qf",
                   "label": {
                     "en": "RFT DF/QF",
-                    "nl": "RFT DF/QF"
+                    "nl": "RFT DF/QF",
+                    "da": "RFT DF/QF",
+                    "de": "RFT DF/QF",
+                    "es": "RFT DF/QF",
+                    "fr": "RFT DF/QF",
+                    "it": "RFT DF/QF",
+                    "ko": "RFT DF/QF",
+                    "no": "RFT DF/QF",
+                    "pl": "RFT DF/QF",
+                    "ru": "RFT DF/QF",
+                    "sv": "RFT DF/QF"
                   }
                 },
                 {
                   "id": "rft-rv",
                   "label": {
                     "en": "RFT RV",
-                    "nl": "RFT RV"
+                    "nl": "RFT RV",
+                    "da": "RFT RV",
+                    "de": "RFT RV",
+                    "es": "RFT RV",
+                    "fr": "RFT RV",
+                    "it": "RFT RV",
+                    "ko": "RFT RV",
+                    "no": "RFT RV",
+                    "pl": "RFT RV",
+                    "ru": "RFT RV",
+                    "sv": "RFT RV"
                   }
                 },
                 {
                   "id": "rft-co2",
                   "label": {
                     "en": "RFT CO2",
-                    "nl": "RFT CO2"
+                    "nl": "RFT CO2",
+                    "da": "RFT CO2",
+                    "de": "RFT CO2",
+                    "es": "RFT CO2",
+                    "fr": "RFT CO2",
+                    "it": "RFT CO2",
+                    "ko": "RFT CO2",
+                    "no": "RFT CO2",
+                    "pl": "RFT CO2",
+                    "ru": "RFT CO2",
+                    "sv": "RFT CO2"
                   }
                 },
                 {
                   "id": "rft-pir",
                   "label": {
                     "en": "RFT PIR",
-                    "nl": "RFT PIR"
+                    "nl": "RFT PIR",
+                    "da": "RFT PIR",
+                    "de": "RFT PIR",
+                    "es": "RFT PIR",
+                    "fr": "RFT PIR",
+                    "it": "RFT PIR",
+                    "ko": "RFT PIR",
+                    "no": "RFT PIR",
+                    "pl": "RFT PIR",
+                    "ru": "RFT PIR",
+                    "sv": "RFT PIR"
                   }
                 },
                 {
                   "id": "rft-spider",
                   "label": {
                     "en": "RFT Spider",
-                    "nl": "RFT Spider"
+                    "nl": "RFT Spider",
+                    "da": "RFT Spider",
+                    "de": "RFT Spider",
+                    "es": "RFT Spider",
+                    "fr": "RFT Spider",
+                    "it": "RFT Spider",
+                    "ko": "RFT Spider",
+                    "no": "RFT Spider",
+                    "pl": "RFT Spider",
+                    "ru": "RFT Spider",
+                    "sv": "RFT Spider"
                   }
                 }
               ]
