@@ -19,5 +19,8 @@
   },
   "1.0.6": {
     "en": "Add new setting Virtual Remote Type and based on model you get the right Fan Modus options"
+  },
+  "1.0.7": {
+    "en": "Bugfix: You can now use authentication webapi"
   }
 }
