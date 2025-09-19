@@ -22,5 +22,8 @@
   },
   "1.0.7": {
     "en": "Bugfix: You can now use authentication webapi"
+  },
+  "1.0.8": {
+    "en": "Add support for WebAPI v2 (Beta firmware)"
   }
 }
