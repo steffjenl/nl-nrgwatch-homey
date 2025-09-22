@@ -810,6 +810,99 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "virtualRemoteIndex",
+              "type": "dropdown",
+              "value": "0",
+              "label": {
+                "en": "Virtual Remote Index",
+                "nl": "Virtuele Afstandsbediening Index",
+                "da": "Virtuel Fjernbetjening Indeks",
+                "de": "Virtueller Fernbedienungsindex",
+                "es": "Índice de mando virtual",
+                "fr": "Index de télécommande virtuelle",
+                "it": "Indice telecomando virtuale",
+                "ko": "가상 리모컨 인덱스",
+                "no": "Indeks for virtuell fjernkontroll",
+                "pl": "Indeks wirtualnego pilota",
+                "ru": "Индекс виртуального пульта",
+                "sv": "Index för virtuell fjärrkontroll"
+              },
+              "values": [
+                {
+                  "id": "0",
+                  "label": {
+                    "en": "0"
+                  }
+                },
+                {
+                  "id": "1",
+                  "label": {
+                    "en": "1"
+                  }
+                },
+                {
+                  "id": "2",
+                  "label": {
+                    "en": "2"
+                  }
+                },
+                {
+                  "id": "3",
+                  "label": {
+                    "en": "3"
+                  }
+                },
+                {
+                  "id": "4",
+                  "label": {
+                    "en": "4"
+                  }
+                },
+                {
+                  "id": "5",
+                  "label": {
+                    "en": "5"
+                  }
+                },
+                {
+                  "id": "6",
+                  "label": {
+                    "en": "6"
+                  }
+                },
+                {
+                  "id": "7",
+                  "label": {
+                    "en": "7"
+                  }
+                },
+                {
+                  "id": "8",
+                  "label": {
+                    "en": "8"
+                  }
+                },
+                {
+                  "id": "9",
+                  "label": {
+                    "en": "9"
+                  }
+                },
+                {
+                  "id": "10",
+                  "label": {
+                    "en": "10"
+                  }
+                },
+                {
+                  "id": "11",
+                  "label": {
+                    "en": "11"
+                  }
+                }
+              ]
             }
           ]
         }
