@@ -28,5 +28,8 @@
   },
   "1.0.9": {
     "en": "Fixing manual adding device with username and password authentication"
+  },
+  "1.0.10": {
+    "en": "Change icons and readme"
   }
 }
