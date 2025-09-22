@@ -31,5 +31,8 @@
   },
   "1.0.10": {
     "en": "Change icons and readme"
+  },
+  "1.0.11": {
+    "en": "Add virtual remote index setting"
   }
 }
