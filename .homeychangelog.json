@@ -34,5 +34,8 @@
   },
   "1.0.11": {
     "en": "Add virtual remote index setting"
+  },
+  "1.0.12": {
+    "en": "Add fan speed sensor and prepare version for Basic Auth"
   }
 }
