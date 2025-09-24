@@ -37,5 +37,8 @@
   },
   "1.0.12": {
     "en": "Add fan speed sensor and prepare version for Basic Auth"
+  },
+  "1.0.13": {
+    "en": "Add fan speed slider for all users"
   }
 }
