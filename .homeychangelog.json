@@ -40,5 +40,8 @@
   },
   "1.0.13": {
     "en": "Add fan speed slider for all users"
+  },
+  "1.0.14": {
+    "en": "Fixing incorrect setting message with pairing"
   }
 }
