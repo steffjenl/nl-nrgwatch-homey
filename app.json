@@ -72,6 +72,7 @@
         "fan_speed",
         "measure_humidity",
         "measure_temperature",
+        "measure_speed.speed_status",
         "measure_speed.fan_speed",
         "measure_speed.fan_setpoint",
         "measure_speed.ventilation_setpoint",
@@ -328,6 +329,23 @@
         },
         "fan_mode": {
           "values": [
+            {
+              "id": "auto",
+              "title": {
+                "en": "Auto",
+                "nl": "Auto",
+                "de": "Auto",
+                "fr": "Auto",
+                "it": "Auto",
+                "sv": "Auto",
+                "no": "Auto",
+                "es": "Auto",
+                "da": "Auto",
+                "ru": "Авто",
+                "pl": "Auto",
+                "ko": "자동"
+              }
+            },
             {
               "id": "low",
               "title": {
