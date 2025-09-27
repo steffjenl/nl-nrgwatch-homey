@@ -46,5 +46,8 @@
   },
   "1.0.15": {
     "en": "Fixing percentage for fan speed"
+  },
+  "1.0.16": {
+    "en": "Fixing rounding with fan speed"
   }
 }
