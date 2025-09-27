@@ -43,5 +43,8 @@
   },
   "1.0.14": {
     "en": "Fixing incorrect setting message with pairing"
+  },
+  "1.0.15": {
+    "en": "Fixing percentage for fan speed"
   }
 }
