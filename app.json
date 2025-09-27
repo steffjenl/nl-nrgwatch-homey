@@ -48,6 +48,7 @@
     "url": "https://github.com/steffjenl/nl-nrgwatch-homey/issues"
   },
   "support": "https://monkeysoft.nl/homey-integrations-support/",
+  "homepage": "https://monkeysoft.nl/",
   "homeyCommunityTopicId": 142944,
   "drivers": [
     {
@@ -324,8 +325,8 @@
         },
         "fan_speed": {
           "min": 0,
-          "max": 255,
-          "unit": "0-255"
+          "max": 2.55,
+          "units": "0-255"
         },
         "fan_mode": {
           "values": [
