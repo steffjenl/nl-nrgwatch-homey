@@ -49,5 +49,8 @@
   },
   "1.0.16": {
     "en": "Fixing rounding with fan speed"
+  },
+  "1.0.17": {
+    "en": "Add new app image and driver name"
   }
 }
