@@ -53,18 +53,7 @@
   "drivers": [
     {
       "name": {
-        "en": "Itho Daalderop",
-        "nl": "Itho Daalderop",
-        "de": "Itho Daalderop",
-        "fr": "Itho Daalderop",
-        "it": "Itho Daalderop",
-        "sv": "Itho Daalderop",
-        "no": "Itho Daalderop",
-        "es": "Itho Daalderop",
-        "da": "Itho Daalderop",
-        "ru": "Itho Daalderop",
-        "pl": "Itho Daalderop",
-        "ko": "Itho Daalderop"
+        "en": "NRG.Watch Itho CVE Wifi"
       },
       "class": "fan",
       "capabilities": [
