@@ -52,5 +52,8 @@
   },
   "1.0.17": {
     "en": "Add new app image and driver name"
+  },
+  "1.0.18": {
+    "en": "Add WTW Unit driver (same chip, only other sensors)"
   }
 }
