@@ -1,0 +1,444 @@
+[
+  {
+    "type": "text",
+    "label": {
+      "en": "IP Address or Hostname",
+      "nl": "IP Adres of Hostnaam",
+      "da": "IP-adresse eller værtsnavn",
+      "de": "IP-Adresse oder Hostname",
+      "es": "Dirección IP o nombre de host",
+      "fr": "Adresse IP ou nom d'hôte",
+      "it": "Indirizzo IP o nome host",
+      "ko": "IP 주소 또는 호스트명",
+      "no": "IP-adresse eller vertsnavn",
+      "pl": "Adres IP lub nazwa hosta",
+      "ru": "IP-адрес или имя хоста",
+      "sv": "IP-adress eller värdnamn"
+    },
+    "id": "host",
+    "placeholder": {
+      "en": "http://nrg.local",
+      "nl": "http://nrg.local",
+      "da": "http://nrg.local",
+      "de": "http://nrg.local",
+      "es": "http://nrg.local",
+      "fr": "http://nrg.local",
+      "it": "http://nrg.local",
+      "ko": "http://nrg.local",
+      "no": "http://nrg.local",
+      "pl": "http://nrg.local",
+      "ru": "http://nrg.local",
+      "sv": "http://nrg.local"
+    }
+  },
+  {
+    "type": "group",
+    "label": {
+      "en": "Authentication",
+      "nl": "Authenticatie",
+      "da": "Godkendelse",
+      "de": "Authentifizierung",
+      "es": "Autenticación",
+      "fr": "Authentification",
+      "it": "Autenticazione",
+      "ko": "인증",
+      "no": "Autentisering",
+      "pl": "Uwierzytelnianie",
+      "ru": "Аутентификация",
+      "sv": "Autentisering"
+    },
+    "children": [
+      {
+        "id": "isAuthenticated",
+        "type": "checkbox",
+        "value": false,
+        "label": {
+          "en": "Does the API require authentication?",
+          "nl": "Heeft de API authenticatie nodig?",
+          "da": "Kræver API'en godkendelse?",
+          "de": "Benötigt die API eine Authentifizierung?",
+          "es": "¿La API requiere autenticación?",
+          "fr": "L'API nécessite-t-elle une authentification ?",
+          "it": "L'API richiede autenticazione?",
+          "ko": "API에 인증이 필요합니까?",
+          "no": "Krever API-autentisering?",
+          "pl": "Czy API wymaga uwierzytelnienia?",
+          "ru": "Требуется ли аутентификация для API?",
+          "sv": "Kräver API:et autentisering?"
+        },
+        "hint": {
+          "en": "Enable this only when authentication is enabled on the device.",
+          "nl": "Schakel dit in alleen wanneer authenticatie is ingeschakeld op het apparaat.",
+          "da": "Aktivér kun dette, når godkendelse er aktiveret på enheden.",
+          "de": "Aktivieren Sie dies nur, wenn die Authentifizierung auf dem Gerät aktiviert ist.",
+          "es": "Actívelo solo cuando la autenticación esté habilitada en el dispositivo.",
+          "fr": "Activez ceci uniquement lorsque l'authentification est activée sur l'appareil.",
+          "it": "Abilita solo quando l'autenticazione è attivata sul dispositivo.",
+          "ko": "장치에서 인증이 활성화된 경우에만 활성화하세요.",
+          "no": "Aktiver kun dette når autentisering er aktivert på enheten.",
+          "pl": "Włącz tylko wtedy, gdy uwierzytelnianie jest włączone na urządzeniu.",
+          "ru": "Включайте это только если на устройстве включена аутентификация.",
+          "sv": "Aktivera detta endast när autentisering är aktiverat på enheten."
+        }
+      },
+      {
+        "type": "text",
+        "label": {
+          "en": "Username",
+          "nl": "Gebruikersnaam",
+          "da": "Brugernavn",
+          "de": "Benutzername",
+          "es": "Nombre de usuario",
+          "fr": "Nom d'utilisateur",
+          "it": "Nome utente",
+          "ko": "사용자 이름",
+          "no": "Brukernavn",
+          "pl": "Nazwa użytkownika",
+          "ru": "Имя пользователя",
+          "sv": "Användarnamn"
+        },
+        "id": "username",
+        "placeholder": {
+          "en": "your-username",
+          "nl": "jouw-gebruikersnaam",
+          "da": "dit-brugernavn",
+          "de": "Ihr-Benutzername",
+          "es": "tu-nombredeusuario",
+          "fr": "votre-nomutilisateur",
+          "it": "tuo-nomeutente",
+          "ko": "사용자이름",
+          "no": "ditt-brukernavn",
+          "pl": "twoja-nazwa-uzytkownika",
+          "ru": "ваше-имя-пользователя",
+          "sv": "ditt-användarnamn"
+        }
+      },
+      {
+        "type": "password",
+        "label": {
+          "en": "Password",
+          "nl": "Wachtwoord",
+          "da": "Adgangskode",
+          "de": "Passwort",
+          "es": "Contraseña",
+          "fr": "Mot de passe",
+          "it": "Password",
+          "ko": "비밀번호",
+          "no": "Passord",
+          "pl": "Hasło",
+          "ru": "Пароль",
+          "sv": "Lösenord"
+        },
+        "id": "password",
+        "placeholder": {
+          "en": "your-password",
+          "nl": "jouw-wachtwoord",
+          "da": "din-adgangskode",
+          "de": "Ihr-Passwort",
+          "es": "tu-contraseña",
+          "fr": "votre-motdepasse",
+          "it": "tua-password",
+          "ko": "비밀번호",
+          "no": "ditt-passord",
+          "pl": "twoje-haslo",
+          "ru": "ваш-пароль",
+          "sv": "ditt-lösenord"
+        }
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "label": {
+      "en": "Device Options",
+      "nl": "Apparaat Opties",
+      "da": "Enhedsindstillinger",
+      "de": "Geräteoptionen",
+      "es": "Opciones de dispositivo",
+      "fr": "Options de l'appareil",
+      "it": "Opzioni dispositivo",
+      "ko": "장치 옵션",
+      "no": "Enhetsalternativer",
+      "pl": "Opcje urządzenia",
+      "ru": "Параметры устройства",
+      "sv": "Enhetsalternativ"
+    },
+    "children": [
+      {
+        "id": "refreshInterval",
+        "type": "number",
+        "value": 15,
+        "min": 5,
+        "label": {
+          "en": "Refresh Interval (seconds)",
+          "nl": "Verversingsinterval (seconden)",
+          "da": "Opdateringsinterval (sekunder)",
+          "de": "Aktualisierungsintervall (Sekunden)",
+          "es": "Intervalo de actualización (segundos)",
+          "fr": "Intervalle de rafraîchissement (secondes)",
+          "it": "Intervallo di aggiornamento (secondi)",
+          "ko": "새로고침 간격(초)",
+          "no": "Oppdateringsintervall (sekunder)",
+          "pl": "Interwał odświeżania (sekundy)",
+          "ru": "Интервал обновления (секунды)",
+          "sv": "Uppdateringsintervall (sekunder)"
+        }
+      },
+      {
+        "id": "rfDeviceType",
+        "type": "dropdown",
+        "value": "rft-auto",
+        "label": {
+          "en": "Select RF Device Type",
+          "nl": "Selecteer RF Apparaat Type",
+          "da": "Vælg RF-enhedstype",
+          "de": "Wählen Sie den RF-Gerätetyp",
+          "es": "Seleccione el tipo de dispositivo RF",
+          "fr": "Sélectionnez le type d'appareil RF",
+          "it": "Seleziona il tipo di dispositivo RF",
+          "ko": "RF 장치 유형 선택",
+          "no": "Velg RF-enhetstype",
+          "pl": "Wybierz typ urządzenia RF",
+          "ru": "Выберите тип RF-устройства",
+          "sv": "Välj RF-enhetstyp"
+        },
+        "values": [
+          {
+            "id": "rft-cve",
+            "label": {
+              "en": "RFT CVE",
+              "nl": "RFT CVE",
+              "da": "RFT CVE",
+              "de": "RFT CVE",
+              "es": "RFT CVE",
+              "fr": "RFT CVE",
+              "it": "RFT CVE",
+              "ko": "RFT CVE",
+              "no": "RFT CVE",
+              "pl": "RFT CVE",
+              "ru": "RFT CVE",
+              "sv": "RFT CVE"
+            }
+          },
+          {
+            "id": "rft-auto",
+            "label": {
+              "en": "RFT AUTO",
+              "nl": "RFT AUTO",
+              "da": "RFT AUTO",
+              "de": "RFT AUTO",
+              "es": "RFT AUTO",
+              "fr": "RFT AUTO",
+              "it": "RFT AUTO",
+              "ko": "RFT AUTO",
+              "no": "RFT AUTO",
+              "pl": "RFT AUTO",
+              "ru": "RFT AUTO",
+              "sv": "RFT AUTO"
+            }
+          },
+          {
+            "id": "rft-n",
+            "label": {
+              "en": "RFT N",
+              "nl": "RFT N",
+              "da": "RFT N",
+              "de": "RFT N",
+              "es": "RFT N",
+              "fr": "RFT N",
+              "it": "RFT N",
+              "ko": "RFT N",
+              "no": "RFT N",
+              "pl": "RFT N",
+              "ru": "RFT N",
+              "sv": "RFT N"
+            }
+          },
+          {
+            "id": "rft-auto-n",
+            "label": {
+              "en": "RFT AUTO-N",
+              "nl": "RFT AUTO-N",
+              "da": "RFT AUTO-N",
+              "de": "RFT AUTO-N",
+              "es": "RFT AUTO-N",
+              "fr": "RFT AUTO-N",
+              "it": "RFT AUTO-N",
+              "ko": "RFT AUTO-N",
+              "no": "RFT AUTO-N",
+              "pl": "RFT AUTO-N",
+              "ru": "RFT AUTO-N",
+              "sv": "RFT AUTO-N"
+            }
+          },
+          {
+            "id": "rft-df-qf",
+            "label": {
+              "en": "RFT DF/QF",
+              "nl": "RFT DF/QF",
+              "da": "RFT DF/QF",
+              "de": "RFT DF/QF",
+              "es": "RFT DF/QF",
+              "fr": "RFT DF/QF",
+              "it": "RFT DF/QF",
+              "ko": "RFT DF/QF",
+              "no": "RFT DF/QF",
+              "pl": "RFT DF/QF",
+              "ru": "RFT DF/QF",
+              "sv": "RFT DF/QF"
+            }
+          },
+          {
+            "id": "rft-rv",
+            "label": {
+              "en": "RFT RV",
+              "nl": "RFT RV",
+              "da": "RFT RV",
+              "de": "RFT RV",
+              "es": "RFT RV",
+              "fr": "RFT RV",
+              "it": "RFT RV",
+              "ko": "RFT RV",
+              "no": "RFT RV",
+              "pl": "RFT RV",
+              "ru": "RFT RV",
+              "sv": "RFT RV"
+            }
+          },
+          {
+            "id": "rft-co2",
+            "label": {
+              "en": "RFT CO2",
+              "nl": "RFT CO2",
+              "da": "RFT CO2",
+              "de": "RFT CO2",
+              "es": "RFT CO2",
+              "fr": "RFT CO2",
+              "it": "RFT CO2",
+              "ko": "RFT CO2",
+              "no": "RFT CO2",
+              "pl": "RFT CO2",
+              "ru": "RFT CO2",
+              "sv": "RFT CO2"
+            }
+          },
+          {
+            "id": "rft-pir",
+            "label": {
+              "en": "RFT PIR",
+              "nl": "RFT PIR",
+              "da": "RFT PIR",
+              "de": "RFT PIR",
+              "es": "RFT PIR",
+              "fr": "RFT PIR",
+              "it": "RFT PIR",
+              "ko": "RFT PIR",
+              "no": "RFT PIR",
+              "pl": "RFT PIR",
+              "ru": "RFT PIR",
+              "sv": "RFT PIR"
+            }
+          },
+          {
+            "id": "rft-spider",
+            "label": {
+              "en": "RFT Spider",
+              "nl": "RFT Spider",
+              "da": "RFT Spider",
+              "de": "RFT Spider",
+              "es": "RFT Spider",
+              "fr": "RFT Spider",
+              "it": "RFT Spider",
+              "ko": "RFT Spider",
+              "no": "RFT Spider",
+              "pl": "RFT Spider",
+              "ru": "RFT Spider",
+              "sv": "RFT Spider"
+            }
+          }
+        ]
+      },
+      {
+        "id": "rfDeviceIndex",
+        "type": "dropdown",
+        "value": "0",
+        "label": {
+          "en": "RF Device Index",
+          "nl": "RF Apparaat Index",
+          "da": "RF-enhedsindeks",
+          "de": "RF-Geräteindex",
+          "es": "Índice de dispositivo RF",
+          "fr": "Index de l'appareil RF",
+          "it": "Indice dispositivo RF",
+          "ko": "RF 장치 인덱스",
+          "no": "RF-enhetsindeks",
+          "pl": "Indeks urządzenia RF",
+          "ru": "Индекс RF-устройства",
+          "sv": "RF-enhetsindex"
+        },
+        "values": [
+          {
+            "id": "0",
+            "label": {
+              "en": "0"
+            }
+          },
+          {
+            "id": "1",
+            "label": {
+              "en": "1"
+            }
+          },
+          {
+            "id": "2",
+            "label": {
+              "en": "2"
+            }
+          },
+          {
+            "id": "3",
+            "label": {
+              "en": "3"
+            }
+          },
+          {
+            "id": "4",
+            "label": {
+              "en": "4"
+            }
+          },
+          {
+            "id": "5",
+            "label": {
+              "en": "5"
+            }
+          },
+          {
+            "id": "6",
+            "label": {
+              "en": "6"
+            }
+          },
+          {
+            "id": "7",
+            "label": {
+              "en": "7"
+            }
+          },
+          {
+            "id": "8",
+            "label": {
+              "en": "8"
+            }
+          },
+          {
+            "id": "9",
+            "label": {
+              "en": "9"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

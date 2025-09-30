@@ -11,8 +11,8 @@
     "username": "Username",
     "password": "Password",
     "ipAddress": "IP Address or Hostname",
-    "enableVirtualRemote": "Enable Virtual Remote",
-    "enableVirtualRemote_desc": "Enable this when you have joined the virtual remote and using the CO2 module.",
-    "refreshInterval": "Refresh Interval (seconds)"
+    "refreshInterval": "Refresh Interval (seconds)",
+    "rfDeviceType": "RF Device Type",
+    "rfDeviceIndex": "RF Device Index"
   }
 }

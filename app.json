@@ -13,8 +13,8 @@
     "nl": "Itho Daalderop"
   },
   "description": {
-    "en": "Itho Daalderop - 'Make ventilation smart with Homey and NRG.Watch'",
-    "nl": "Itho Daalderop - 'Maak ventilatie slim met Homey en NRG.Watch'"
+    "en": "Make ventilation smart with Homey and NRG.Watch",
+    "nl": "Maak ventilatie slim met Homey en NRG.Watch"
   },
   "category": [
     "climate"
@@ -931,6 +931,832 @@
           ]
         }
       ]
+    },
+    {
+      "name": {
+        "en": "NRG.Watch Itho WTW Wifi"
+      },
+      "class": "fan",
+      "capabilities": [
+        "fan_mode"
+      ],
+      "pair": [
+        {
+          "id": "loading",
+          "template": "loading"
+        },
+        {
+          "id": "set_ip"
+        },
+        {
+          "id": "get_data",
+          "template": "loading",
+          "options": {
+            "text": {
+              "en": "Searching for devices",
+              "nl": "Zoeken naar apparaten",
+              "de": "Suche nach Geräten",
+              "fr": "Recherche d'appareils",
+              "it": "Ricerca dispositivi",
+              "sv": "Söker efter enheter",
+              "no": "Søker etter enheter",
+              "es": "Buscando dispositivos",
+              "da": "Søger efter enheder",
+              "ru": "Поиск устройств",
+              "pl": "Wyszukiwanie urządzeń",
+              "ko": "기기 검색 중"
+            }
+          }
+        },
+        {
+          "id": "set_settings"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        },
+        {
+          "id": "done",
+          "template": "done"
+        }
+      ],
+      "images": {
+        "small": "/drivers/itho-wtw-wifi/assets/images/small.png",
+        "large": "/drivers/itho-wtw-wifi/assets/images/large.png",
+        "xlarge": "/drivers/itho-wtw-wifi/assets/images/xlarge.png"
+      },
+      "capabilitiesOptions": {
+        "button.join": {
+          "maintenanceAction": true,
+          "title": {
+            "en": "Join Virtual Remote",
+            "nl": "Koppel Virtuele Afstandsbediening",
+            "da": "Tilslut Virtuel Fjernbetjening",
+            "de": "Virtuelle Fernbedienung koppeln",
+            "es": "Unir Mando Virtual",
+            "fr": "Associer Télécommande Virtuelle",
+            "it": "Associa Telecomando Virtuale",
+            "ko": "가상 리모컨 연결",
+            "no": "Koble til Virtuell Fjernkontroll",
+            "pl": "Dołącz Wirtualny Pilot",
+            "ru": "Присоединить виртуальный пульт",
+            "sv": "Anslut Virtuell Fjärrkontroll"
+          },
+          "desc": {
+            "en": "A join command will only be accepted by the Itho unit within the first 2 minutes after a power cycle",
+            "nl": "Een koppelcommando wordt alleen geaccepteerd door de Itho-unit binnen de eerste 2 minuten na een stroomonderbreking",
+            "da": "En tilslutningskommando accepteres kun af Itho-enheden inden for de første 2 minutter efter en strømcyklus",
+            "de": "Ein Kopplungsbefehl wird vom Itho-Gerät nur in den ersten 2 Minuten nach dem Einschalten akzeptiert",
+            "es": "Un comando de unión solo será aceptado por la unidad Itho en los primeros 2 minutos tras un ciclo de energía",
+            "fr": "Une commande d'association n'est acceptée par l'unité Itho que dans les 2 premières minutes après une remise sous tension",
+            "it": "Un comando di associazione viene accettato dall'unità Itho solo nei primi 2 minuti dopo un ciclo di alimentazione",
+            "ko": "조인 명령은 전원 재시작 후 처음 2분 동안만 Itho 장치에서 허용됩니다",
+            "no": "En tilkoblingskommando aksepteres kun av Itho-enheten de første 2 minuttene etter strømoppstart",
+            "pl": "Polecenie dołączenia zostanie zaakceptowane przez jednostkę Itho tylko w ciągu pierwszych 2 minut po cyklu zasilania",
+            "ru": "Команда присоединения принимается устройством Itho только в первые 2 минуты после включения питания",
+            "sv": "En anslutningskommando accepteras endast av Itho-enheten under de första 2 minuterna efter en strömcykel"
+          }
+        },
+        "button.leave": {
+          "maintenanceAction": true,
+          "title": {
+            "en": "Leave Virtual Remote",
+            "nl": "Ontkoppel Virtuele Afstandsbediening",
+            "da": "Frakobl Virtuel Fjernbetjening",
+            "de": "Virtuelle Fernbedienung trennen",
+            "es": "Salir de Mando Virtual",
+            "fr": "Dissocier Télécommande Virtuelle",
+            "it": "Disconnetti Telecomando Virtuale",
+            "ko": "가상 리모컨 연결 해제",
+            "no": "Koble fra Virtuell Fjernkontroll",
+            "pl": "Opuść Wirtualny Pilot",
+            "ru": "Отключить виртуальный пульт",
+            "sv": "Koppla från Virtuell Fjärrkontroll"
+          },
+          "desc": {
+            "en": "Leave Virtual Remote from Itho unit",
+            "nl": "Ontkoppel Virtuele Afstandsbediening van Itho-unit",
+            "da": "Frakobl Virtuel Fjernbetjening fra Itho-enheden",
+            "de": "Virtuelle Fernbedienung von der Itho-Einheit trennen",
+            "es": "Salir de Mando Virtual de la unidad Itho",
+            "fr": "Dissocier Télécommande Virtuelle de la unité Itho",
+            "it": "Disconnetti Telecomando Virtuale dalla unità Itho",
+            "ko": "Itho 장치에서 가상 리모컨 연결 해제",
+            "no": "Koble fra Virtuell Fjernkontroll fra ventilasjonen",
+            "pl": "Opuść Wirtualny Pilot z jednostki Itho",
+            "ru": "Отключить виртуальный пульт от устройства Itho",
+            "sv": "Koppla från Virtuell Fjärrkontroll från Itho-enheten"
+          }
+        },
+        "measure_number.startup_counter": {
+          "units": {
+            "en": "starts",
+            "nl": "starts",
+            "da": "starter",
+            "de": "Starts",
+            "es": "inicios",
+            "fr": "démarrages",
+            "it": "avvii",
+            "ko": "시작",
+            "no": "starter",
+            "pl": "uruchomienia",
+            "ru": "запуски",
+            "sv": "starter"
+          },
+          "title": {
+            "en": "Startup Counter",
+            "nl": "Startteller",
+            "da": "Opstartstæller",
+            "de": "Startzähler",
+            "es": "Contador de Arranques",
+            "fr": "Compteur de Démarrages",
+            "it": "Contatore Avvii",
+            "ko": "시작 카운터",
+            "no": "Oppstartsteller",
+            "pl": "Licznik uruchomień",
+            "ru": "Счетчик запусков",
+            "sv": "Start-räknare"
+          }
+        },
+        "measure_number.total_operating_hours": {
+          "units": {
+            "en": "hours",
+            "nl": "uren",
+            "da": "timer",
+            "de": "Stunden",
+            "es": "horas",
+            "fr": "heures",
+            "it": "ore",
+            "ko": "시간",
+            "no": "timer",
+            "pl": "godziny",
+            "ru": "часы",
+            "sv": "timmar"
+          },
+          "title": {
+            "en": "Total Operating Hours",
+            "nl": "Totale bedrijfstijd",
+            "da": "Samlede Driftstimer",
+            "de": "Gesamtbetriebsstunden",
+            "es": "Horas Totales de Funcionamiento",
+            "fr": "Heures de Fonctionnement Totales",
+            "it": "Ore Totali di Funzionamento",
+            "ko": "총 작동 시간",
+            "no": "Totale driftstimer",
+            "pl": "Łączny czas pracy",
+            "ru": "Общее время работы",
+            "sv": "Totala driftstimmar"
+          }
+        },
+        "measure_speed.speed_status": {
+          "units": "%",
+          "title": {
+            "en": "Speed Status",
+            "nl": "Snelheidsstatus",
+            "da": "Hastighedsstatus",
+            "de": "Geschwindigkeitsstatus",
+            "es": "Estado de Velocidad",
+            "fr": "Statut de Vitesse",
+            "it": "Stato Velocità",
+            "ko": "속도 상태",
+            "no": "Hastighetsstatus",
+            "pl": "Status prędkości",
+            "ru": "Статус скорости",
+            "sv": "Hastighetsstatus"
+          }
+        },
+        "measure_speed.ventilation_setpoint": {
+          "units": "%",
+          "title": {
+            "en": "Ventilation Setpoint",
+            "nl": "Ventilatie Instelpunt",
+            "da": "Ventilationsindstilling",
+            "de": "Lüftungs-Sollwert",
+            "es": "Punto de ajuste de ventilación",
+            "fr": "Consigne de ventilation",
+            "it": "Setpoint Ventilazione",
+            "ko": "환기 설정값",
+            "no": "Ventilasjonsinnstilling",
+            "pl": "Wartość zadana wentylacji",
+            "ru": "Уставка вентиляции",
+            "sv": "Ventilationsinställning"
+          }
+        },
+        "measure_speed.fan_speed": {
+          "units": "rpm",
+          "title": {
+            "en": "Fan Speed",
+            "nl": "Ventilatorsnelheid",
+            "da": "Ventilatorhastighed",
+            "de": "Ventilatorgeschwindigkeit",
+            "es": "Velocidad del ventilador",
+            "fr": "Vitesse du ventilateur",
+            "it": "Velocità Ventilatore",
+            "ko": "팬 속도",
+            "no": "Viftehastighet",
+            "pl": "Prędkość wentylatora",
+            "ru": "Скорость вентилятора",
+            "sv": "Fläkthastighet"
+          }
+        },
+        "measure_speed.fan_setpoint": {
+          "units": "rpm",
+          "title": {
+            "en": "Fan Setpoint",
+            "nl": "Ventilator Instelpunt",
+            "da": "Ventilatorindstilling",
+            "de": "Ventilator-Sollwert",
+            "es": "Punto de ajuste del ventilador",
+            "fr": "Consigne du ventilateur",
+            "it": "Setpoint Ventilatore",
+            "ko": "팬 설정값",
+            "no": "Vifteinnstilling",
+            "pl": "Wartość zadana wentylatora",
+            "ru": "Уставка вентилятора",
+            "sv": "Fläktinställning"
+          }
+        },
+        "fan_speed": {
+          "min": 0,
+          "max": 2.55,
+          "units": "0-255"
+        },
+        "fan_mode": {
+          "values": [
+            {
+              "id": "auto",
+              "title": {
+                "en": "Auto",
+                "nl": "Auto",
+                "de": "Auto",
+                "fr": "Auto",
+                "it": "Auto",
+                "sv": "Auto",
+                "no": "Auto",
+                "es": "Auto",
+                "da": "Auto",
+                "ru": "Авто",
+                "pl": "Auto",
+                "ko": "자동"
+              }
+            },
+            {
+              "id": "low",
+              "title": {
+                "en": "Low",
+                "nl": "Laag",
+                "de": "Niedrig",
+                "fr": "Bas",
+                "it": "Basso",
+                "sv": "Låg",
+                "no": "Lav",
+                "es": "Bajo",
+                "da": "Lav",
+                "ru": "Низкий",
+                "pl": "Niski",
+                "ko": "낮음"
+              }
+            },
+            {
+              "id": "medium",
+              "title": {
+                "en": "Medium",
+                "nl": "Middel",
+                "de": "Mittel",
+                "fr": "Moyen",
+                "it": "Medio",
+                "sv": "Mellan",
+                "no": "Middels",
+                "es": "Medio",
+                "da": "Mellem",
+                "ru": "Средний",
+                "pl": "Średni",
+                "ko": "중간"
+              }
+            },
+            {
+              "id": "high",
+              "title": {
+                "en": "High",
+                "nl": "Hoog",
+                "de": "Hoch",
+                "fr": "Haut",
+                "it": "Alto",
+                "sv": "Hög",
+                "no": "Høy",
+                "es": "Alto",
+                "da": "Høj",
+                "ru": "Высокий",
+                "pl": "Wysoki",
+                "ko": "높음"
+              }
+            },
+            {
+              "id": "timer1",
+              "title": {
+                "en": "Timer 1",
+                "nl": "Timer 1",
+                "de": "Timer 1",
+                "fr": "Minuteur 1",
+                "it": "Timer 1",
+                "sv": "Timer 1",
+                "no": "Timer 1",
+                "es": "Temporizador 1",
+                "da": "Timer 1",
+                "ru": "Таймер 1",
+                "pl": "Timer 1",
+                "ko": "타이머 1"
+              }
+            },
+            {
+              "id": "timer2",
+              "title": {
+                "en": "Timer 2",
+                "nl": "Timer 2",
+                "de": "Timer 2",
+                "fr": "Minuteur 2",
+                "it": "Timer 2",
+                "sv": "Timer 2",
+                "no": "Timer 2",
+                "es": "Temporizador 2",
+                "da": "Timer 2",
+                "ru": "Таймер 2",
+                "pl": "Timer 2",
+                "ko": "타이머 2"
+              }
+            },
+            {
+              "id": "timer3",
+              "title": {
+                "en": "Timer 3",
+                "nl": "Timer 3",
+                "de": "Timer 3",
+                "fr": "Minuteur 3",
+                "it": "Timer 3",
+                "sv": "Timer 3",
+                "no": "Timer 3",
+                "es": "Temporizador 3",
+                "da": "Timer 3",
+                "ru": "Таймер 3",
+                "pl": "Timer 3",
+                "ko": "타이머 3"
+              }
+            }
+          ]
+        }
+      },
+      "id": "itho-wtw-wifi",
+      "settings": [
+        {
+          "type": "text",
+          "label": {
+            "en": "IP Address or Hostname",
+            "nl": "IP Adres of Hostnaam",
+            "da": "IP-adresse eller værtsnavn",
+            "de": "IP-Adresse oder Hostname",
+            "es": "Dirección IP o nombre de host",
+            "fr": "Adresse IP ou nom d'hôte",
+            "it": "Indirizzo IP o nome host",
+            "ko": "IP 주소 또는 호스트명",
+            "no": "IP-adresse eller vertsnavn",
+            "pl": "Adres IP lub nazwa hosta",
+            "ru": "IP-адрес или имя хоста",
+            "sv": "IP-adress eller värdnamn"
+          },
+          "id": "host",
+          "placeholder": {
+            "en": "http://nrg.local",
+            "nl": "http://nrg.local",
+            "da": "http://nrg.local",
+            "de": "http://nrg.local",
+            "es": "http://nrg.local",
+            "fr": "http://nrg.local",
+            "it": "http://nrg.local",
+            "ko": "http://nrg.local",
+            "no": "http://nrg.local",
+            "pl": "http://nrg.local",
+            "ru": "http://nrg.local",
+            "sv": "http://nrg.local"
+          }
+        },
+        {
+          "type": "group",
+          "label": {
+            "en": "Authentication",
+            "nl": "Authenticatie",
+            "da": "Godkendelse",
+            "de": "Authentifizierung",
+            "es": "Autenticación",
+            "fr": "Authentification",
+            "it": "Autenticazione",
+            "ko": "인증",
+            "no": "Autentisering",
+            "pl": "Uwierzytelnianie",
+            "ru": "Аутентификация",
+            "sv": "Autentisering"
+          },
+          "children": [
+            {
+              "id": "isAuthenticated",
+              "type": "checkbox",
+              "value": false,
+              "label": {
+                "en": "Does the API require authentication?",
+                "nl": "Heeft de API authenticatie nodig?",
+                "da": "Kræver API'en godkendelse?",
+                "de": "Benötigt die API eine Authentifizierung?",
+                "es": "¿La API requiere autenticación?",
+                "fr": "L'API nécessite-t-elle une authentification ?",
+                "it": "L'API richiede autenticazione?",
+                "ko": "API에 인증이 필요합니까?",
+                "no": "Krever API-autentisering?",
+                "pl": "Czy API wymaga uwierzytelnienia?",
+                "ru": "Требуется ли аутентификация для API?",
+                "sv": "Kräver API:et autentisering?"
+              },
+              "hint": {
+                "en": "Enable this only when authentication is enabled on the device.",
+                "nl": "Schakel dit in alleen wanneer authenticatie is ingeschakeld op het apparaat.",
+                "da": "Aktivér kun dette, når godkendelse er aktiveret på enheden.",
+                "de": "Aktivieren Sie dies nur, wenn die Authentifizierung auf dem Gerät aktiviert ist.",
+                "es": "Actívelo solo cuando la autenticación esté habilitada en el dispositivo.",
+                "fr": "Activez ceci uniquement lorsque l'authentification est activée sur l'appareil.",
+                "it": "Abilita solo quando l'autenticazione è attivata sul dispositivo.",
+                "ko": "장치에서 인증이 활성화된 경우에만 활성화하세요.",
+                "no": "Aktiver kun dette når autentisering er aktivert på enheten.",
+                "pl": "Włącz tylko wtedy, gdy uwierzytelnianie jest włączone na urządzeniu.",
+                "ru": "Включайте это только если на устройстве включена аутентификация.",
+                "sv": "Aktivera detta endast när autentisering är aktiverat på enheten."
+              }
+            },
+            {
+              "type": "text",
+              "label": {
+                "en": "Username",
+                "nl": "Gebruikersnaam",
+                "da": "Brugernavn",
+                "de": "Benutzername",
+                "es": "Nombre de usuario",
+                "fr": "Nom d'utilisateur",
+                "it": "Nome utente",
+                "ko": "사용자 이름",
+                "no": "Brukernavn",
+                "pl": "Nazwa użytkownika",
+                "ru": "Имя пользователя",
+                "sv": "Användarnamn"
+              },
+              "id": "username",
+              "placeholder": {
+                "en": "your-username",
+                "nl": "jouw-gebruikersnaam",
+                "da": "dit-brugernavn",
+                "de": "Ihr-Benutzername",
+                "es": "tu-nombredeusuario",
+                "fr": "votre-nomutilisateur",
+                "it": "tuo-nomeutente",
+                "ko": "사용자이름",
+                "no": "ditt-brukernavn",
+                "pl": "twoja-nazwa-uzytkownika",
+                "ru": "ваше-имя-пользователя",
+                "sv": "ditt-användarnamn"
+              }
+            },
+            {
+              "type": "password",
+              "label": {
+                "en": "Password",
+                "nl": "Wachtwoord",
+                "da": "Adgangskode",
+                "de": "Passwort",
+                "es": "Contraseña",
+                "fr": "Mot de passe",
+                "it": "Password",
+                "ko": "비밀번호",
+                "no": "Passord",
+                "pl": "Hasło",
+                "ru": "Пароль",
+                "sv": "Lösenord"
+              },
+              "id": "password",
+              "placeholder": {
+                "en": "your-password",
+                "nl": "jouw-wachtwoord",
+                "da": "din-adgangskode",
+                "de": "Ihr-Passwort",
+                "es": "tu-contraseña",
+                "fr": "votre-motdepasse",
+                "it": "tua-password",
+                "ko": "비밀번호",
+                "no": "ditt-passord",
+                "pl": "twoje-haslo",
+                "ru": "ваш-пароль",
+                "sv": "ditt-lösenord"
+              }
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
+            "en": "Device Options",
+            "nl": "Apparaat Opties",
+            "da": "Enhedsindstillinger",
+            "de": "Geräteoptionen",
+            "es": "Opciones de dispositivo",
+            "fr": "Options de l'appareil",
+            "it": "Opzioni dispositivo",
+            "ko": "장치 옵션",
+            "no": "Enhetsalternativer",
+            "pl": "Opcje urządzenia",
+            "ru": "Параметры устройства",
+            "sv": "Enhetsalternativ"
+          },
+          "children": [
+            {
+              "id": "refreshInterval",
+              "type": "number",
+              "value": 15,
+              "min": 5,
+              "label": {
+                "en": "Refresh Interval (seconds)",
+                "nl": "Verversingsinterval (seconden)",
+                "da": "Opdateringsinterval (sekunder)",
+                "de": "Aktualisierungsintervall (Sekunden)",
+                "es": "Intervalo de actualización (segundos)",
+                "fr": "Intervalle de rafraîchissement (secondes)",
+                "it": "Intervallo di aggiornamento (secondi)",
+                "ko": "새로고침 간격(초)",
+                "no": "Oppdateringsintervall (sekunder)",
+                "pl": "Interwał odświeżania (sekundy)",
+                "ru": "Интервал обновления (секунды)",
+                "sv": "Uppdateringsintervall (sekunder)"
+              }
+            },
+            {
+              "id": "rfDeviceType",
+              "type": "dropdown",
+              "value": "rft-auto",
+              "label": {
+                "en": "Select RF Device Type",
+                "nl": "Selecteer RF Apparaat Type",
+                "da": "Vælg RF-enhedstype",
+                "de": "Wählen Sie den RF-Gerätetyp",
+                "es": "Seleccione el tipo de dispositivo RF",
+                "fr": "Sélectionnez le type d'appareil RF",
+                "it": "Seleziona il tipo di dispositivo RF",
+                "ko": "RF 장치 유형 선택",
+                "no": "Velg RF-enhetstype",
+                "pl": "Wybierz typ urządzenia RF",
+                "ru": "Выберите тип RF-устройства",
+                "sv": "Välj RF-enhetstyp"
+              },
+              "values": [
+                {
+                  "id": "rft-cve",
+                  "label": {
+                    "en": "RFT CVE",
+                    "nl": "RFT CVE",
+                    "da": "RFT CVE",
+                    "de": "RFT CVE",
+                    "es": "RFT CVE",
+                    "fr": "RFT CVE",
+                    "it": "RFT CVE",
+                    "ko": "RFT CVE",
+                    "no": "RFT CVE",
+                    "pl": "RFT CVE",
+                    "ru": "RFT CVE",
+                    "sv": "RFT CVE"
+                  }
+                },
+                {
+                  "id": "rft-auto",
+                  "label": {
+                    "en": "RFT AUTO",
+                    "nl": "RFT AUTO",
+                    "da": "RFT AUTO",
+                    "de": "RFT AUTO",
+                    "es": "RFT AUTO",
+                    "fr": "RFT AUTO",
+                    "it": "RFT AUTO",
+                    "ko": "RFT AUTO",
+                    "no": "RFT AUTO",
+                    "pl": "RFT AUTO",
+                    "ru": "RFT AUTO",
+                    "sv": "RFT AUTO"
+                  }
+                },
+                {
+                  "id": "rft-n",
+                  "label": {
+                    "en": "RFT N",
+                    "nl": "RFT N",
+                    "da": "RFT N",
+                    "de": "RFT N",
+                    "es": "RFT N",
+                    "fr": "RFT N",
+                    "it": "RFT N",
+                    "ko": "RFT N",
+                    "no": "RFT N",
+                    "pl": "RFT N",
+                    "ru": "RFT N",
+                    "sv": "RFT N"
+                  }
+                },
+                {
+                  "id": "rft-auto-n",
+                  "label": {
+                    "en": "RFT AUTO-N",
+                    "nl": "RFT AUTO-N",
+                    "da": "RFT AUTO-N",
+                    "de": "RFT AUTO-N",
+                    "es": "RFT AUTO-N",
+                    "fr": "RFT AUTO-N",
+                    "it": "RFT AUTO-N",
+                    "ko": "RFT AUTO-N",
+                    "no": "RFT AUTO-N",
+                    "pl": "RFT AUTO-N",
+                    "ru": "RFT AUTO-N",
+                    "sv": "RFT AUTO-N"
+                  }
+                },
+                {
+                  "id": "rft-df-qf",
+                  "label": {
+                    "en": "RFT DF/QF",
+                    "nl": "RFT DF/QF",
+                    "da": "RFT DF/QF",
+                    "de": "RFT DF/QF",
+                    "es": "RFT DF/QF",
+                    "fr": "RFT DF/QF",
+                    "it": "RFT DF/QF",
+                    "ko": "RFT DF/QF",
+                    "no": "RFT DF/QF",
+                    "pl": "RFT DF/QF",
+                    "ru": "RFT DF/QF",
+                    "sv": "RFT DF/QF"
+                  }
+                },
+                {
+                  "id": "rft-rv",
+                  "label": {
+                    "en": "RFT RV",
+                    "nl": "RFT RV",
+                    "da": "RFT RV",
+                    "de": "RFT RV",
+                    "es": "RFT RV",
+                    "fr": "RFT RV",
+                    "it": "RFT RV",
+                    "ko": "RFT RV",
+                    "no": "RFT RV",
+                    "pl": "RFT RV",
+                    "ru": "RFT RV",
+                    "sv": "RFT RV"
+                  }
+                },
+                {
+                  "id": "rft-co2",
+                  "label": {
+                    "en": "RFT CO2",
+                    "nl": "RFT CO2",
+                    "da": "RFT CO2",
+                    "de": "RFT CO2",
+                    "es": "RFT CO2",
+                    "fr": "RFT CO2",
+                    "it": "RFT CO2",
+                    "ko": "RFT CO2",
+                    "no": "RFT CO2",
+                    "pl": "RFT CO2",
+                    "ru": "RFT CO2",
+                    "sv": "RFT CO2"
+                  }
+                },
+                {
+                  "id": "rft-pir",
+                  "label": {
+                    "en": "RFT PIR",
+                    "nl": "RFT PIR",
+                    "da": "RFT PIR",
+                    "de": "RFT PIR",
+                    "es": "RFT PIR",
+                    "fr": "RFT PIR",
+                    "it": "RFT PIR",
+                    "ko": "RFT PIR",
+                    "no": "RFT PIR",
+                    "pl": "RFT PIR",
+                    "ru": "RFT PIR",
+                    "sv": "RFT PIR"
+                  }
+                },
+                {
+                  "id": "rft-spider",
+                  "label": {
+                    "en": "RFT Spider",
+                    "nl": "RFT Spider",
+                    "da": "RFT Spider",
+                    "de": "RFT Spider",
+                    "es": "RFT Spider",
+                    "fr": "RFT Spider",
+                    "it": "RFT Spider",
+                    "ko": "RFT Spider",
+                    "no": "RFT Spider",
+                    "pl": "RFT Spider",
+                    "ru": "RFT Spider",
+                    "sv": "RFT Spider"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "rfDeviceIndex",
+              "type": "dropdown",
+              "value": "0",
+              "label": {
+                "en": "RF Device Index",
+                "nl": "RF Apparaat Index",
+                "da": "RF-enhedsindeks",
+                "de": "RF-Geräteindex",
+                "es": "Índice de dispositivo RF",
+                "fr": "Index de l'appareil RF",
+                "it": "Indice dispositivo RF",
+                "ko": "RF 장치 인덱스",
+                "no": "RF-enhetsindeks",
+                "pl": "Indeks urządzenia RF",
+                "ru": "Индекс RF-устройства",
+                "sv": "RF-enhetsindex"
+              },
+              "values": [
+                {
+                  "id": "0",
+                  "label": {
+                    "en": "0"
+                  }
+                },
+                {
+                  "id": "1",
+                  "label": {
+                    "en": "1"
+                  }
+                },
+                {
+                  "id": "2",
+                  "label": {
+                    "en": "2"
+                  }
+                },
+                {
+                  "id": "3",
+                  "label": {
+                    "en": "3"
+                  }
+                },
+                {
+                  "id": "4",
+                  "label": {
+                    "en": "4"
+                  }
+                },
+                {
+                  "id": "5",
+                  "label": {
+                    "en": "5"
+                  }
+                },
+                {
+                  "id": "6",
+                  "label": {
+                    "en": "6"
+                  }
+                },
+                {
+                  "id": "7",
+                  "label": {
+                    "en": "7"
+                  }
+                },
+                {
+                  "id": "8",
+                  "label": {
+                    "en": "8"
+                  }
+                },
+                {
+                  "id": "9",
+                  "label": {
+                    "en": "9"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "capabilities": {
@@ -959,6 +1785,25 @@
   },
   "discovery": {
     "itho-cve-wifi": {
+      "type": "mdns-sd",
+      "mdns-sd": {
+        "name": "http",
+        "protocol": "tcp"
+      },
+      "id": "{{host}}",
+      "conditions": [
+        [
+          {
+            "field": "host",
+            "match": {
+              "type": "regex",
+              "value": "nrg-itho-[a-z0-9][a-z0-9][a-z0-9][a-z0-9].local"
+            }
+          }
+        ]
+      ]
+    },
+    "itho-wtw-wifi": {
       "type": "mdns-sd",
       "mdns-sd": {
         "name": "http",
