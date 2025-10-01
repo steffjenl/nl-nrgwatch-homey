@@ -55,5 +55,8 @@
   },
   "1.0.18": {
     "en": "Add WTW Unit driver (same chip, only other sensors)"
+  },
+  "1.0.19": {
+    "en": "Change icons and images"
   }
 }
